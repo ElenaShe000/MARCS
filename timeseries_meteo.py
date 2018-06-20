@@ -48,7 +48,7 @@ IF['TAS_PR'] = {
     'group_func': 'mean()',
     'lat_resolution': 1.25,
     'lat_zero': 0,
-    'lon_resolution': 1.185,
+    'lon_resolution': 1.875,
     'lon_zero': 0
 }
 
@@ -154,7 +154,7 @@ def get_data_by_year(t_elem, config, f_lat, f_lon):
 
 # input parameters
 if len(sys.argv) < 4:
-    print('Use command: python timeseries_meteo.py LON LAT ID')
+    print('Use command: python3 timeseries_meteo.py LON LAT ID')
     exit(1)
 
 LON = to_digit(sys.argv[1])
@@ -162,7 +162,7 @@ LAT = to_digit(sys.argv[2])
 ID = to_digit(sys.argv[3])
 
 if not LON or not LAT or not ID:
-    print('Use command: python timeseries_meteo.py LON LAT ID')
+    print('Use command: python3 timeseries_meteo.py LON LAT ID')
     exit(1)
 
 if LON > 360 or LAT > 90 or LAT < -90:
@@ -188,6 +188,7 @@ for i in IF:
 
 # create new files
 for i in rootgrp:
+    print(IF[i]['fname'])
     result, grid_lon, grid_lat = get_data_by_year(rootgrp[i], IF[i], LAT, LON)
     if result:
         with open('{}{}{}'.format(OUT_DIR, ID, IF[i]['fn_postfix']), 'a') as file:
