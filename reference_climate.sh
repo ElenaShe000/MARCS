@@ -1,5 +1,5 @@
 #!/bin/bash
-#to calculate the yearly temperature values from the monthly values
+#to calculate the yearly values from the monthly values
 #use the data by NOAA: precip.mon.total.v401.nc [sm/month] and air.mon.mean.v401.nc [degC]
 
 #  Experiment: 12 FINNISH RIVERS, 05.03.2018
