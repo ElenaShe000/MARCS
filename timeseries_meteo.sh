@@ -1,9 +1,7 @@
 #!/bin/bash
 #  Description: METEOROLOGIAL MODULE OF THE MODEL 
-#  Experiment: PAN-ARCTIC
-#  25 Jul 2016, 16:00
-#  Lines embraced with "#Variable" contain name and description of variable 
-#                 with "#" are comments that may be helpful to a user.
+#  Experiment: SINGLE CATCHMENT 
+#  16 Jul 2016, 16:00
 #  Current Code Owner: FMI, Elena Shevnina
 #  ph. +358449185446
 #  e-mail:eshevnina@gmail.com
@@ -21,26 +19,23 @@ WDU='/home/shevnina/Manuscripts/2019/UnivGeosc/support_data/tst'
 CS='/home/shevnina/DCW/CMIP5/MPI_LR_maxPlank/hist1.1/'
 RefC='/home/shevnina/DCW/Meteo_history/'
 
+# the GCM MPI model historical run and the grided observations by NOAA 
 infile_pre_hm=$CS'pr_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc'
 infile_pre_ho=$RefC'precip.mon.total.v401.nc'
+# the GCM projected runs for RCP26, RCP45 and RCP85 models
 infile_pre_pr26='/home/shevnina/DCW/CMIP5/MPI_LR_maxPlank/RCP26/pr_Amon_MPI-ESM-LR_rcp26_r1i1p1_200601-210012.nc'
 infile_pre_pr45='/home/shevnina/DCW/CMIP5/MPI_LR_maxPlank/RCP45/pr_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012.nc'
 infile_pre_pr85='/home/shevnina/DCW/CMIP5/MPI_LR_maxPlank/RCP85/pr_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012.nc'
 
 #And to calculate the precipitation in [mm] from the precipitation_flux [kg m-2 s-1]and to obtaine the yearly values of precipitation in [mm]
-
 cdo mulc,2592000 $infile_pre_hm $WD/pre_mm_hm.nc
 cdo yearsum $WD/pre_mm_hm.nc $WD/pre_year_mm_hm.nc
-
 cdo mulc,2592000 $infile_pre_pr26 $WD/pre_mm_pr26.nc
 cdo yearsum $WD/pre_mm_pr26.nc $WD/pre_year_mm_pr26.nc
-
 cdo mulc,2592000 $infile_pre_pr45 $WD/pre_mm_pr45.nc
 cdo yearsum $WD/pre_mm_pr45.nc $WD/pre_year_mm_pr45.nc
-
 cdo mulc,2592000 $infile_pre_pr85 $WD/pre_mm_pr85.nc
 cdo yearsum $WD/pre_mm_pr85.nc $WD/pre_year_mm_pr85.nc
-
 cdo mulc,10 $infile_pre_ho $WD/pre_mm_ho.nc
 cdo yearsum $WD/pre_mm_ho.nc $WD/pre_year_mm_ho.nc
 rm $WD/pre_mm*
@@ -53,19 +48,18 @@ cdo sellonlatbox,-180,180,-90,90 $WD/pre_year_mm_pr85.nc $WD/pre_year180_mm_pr85
 cdo sellonlatbox,-180,180,-90,90 $WD/pre_year_mm_hm.nc $WD/pre_year180_mm_hm.nc
 rm $WD/pre_year_*
 
-#Note: the followibng part of the code performs the calculations of the meteorological timeseries at the point with specific coodinates: the nearest point to the centroid of the watersheds. The geogaphical coordinates are stored on the file crd.txt with the format lat lon lat lon GRDC_ID
-#list='138.018906647275543,60.92442176818637,138.018906647275543,60.924421768186370,2903070'
-
-#First: we define the nearest points to the waterseds' centroids
+# to extract the meteorological timeseries at the point with specific coodinates
+# the nearest point to the centroid of the watersheds. The geogaphical coordinates are stored on the file crd.txt with the format lat lon lat lon GRDC_ID
+# filename is the script input parameter 
+# cdr_wcentr.txt with lines include GRDC_ID, lon, lot of 12 catchemnts in Finland 
 while read filename; do 
       list=$filename
       id=$(echo $list | cut -d "," -f 1)
       lon=$(echo $list | cut -d "," -f 2)
       lat=$(echo $list | cut -d "," -f 3)
 
-#The CGMs modeled data is represented in grids with different resolution lat/lon Degrees, thus the neasert point is searchin within 1/2 lat/lon in degrees boundaries
-#CanESM2: 2.8/2.8 = 1.4/1.4; GFDL_CM3: 2.0/2.5 = 1.0/1.25
-#INMCM4: 1.5/2.0 = 0.75/1.0; MPI: 1.8/1.8 = 0.9/0.9
+# CGMs modeled data is represented in grids with different resolution lat/lon Degrees, thus the neasert point is searchin within 1/2 lat/lon in degrees boundaries
+# MPI: 1.8/1.8 = 0.9/0.9
       lat1=`echo "$lat + 0.9" | bc`
       lat2=`echo "$lat - 0.9" | bc`
       lon1=`echo "$lon + 0.9" | bc`
@@ -76,7 +70,7 @@ while read filename; do
       cdo sellonlatbox,$lon2,$lon1,$lat2,$lat1 $WD/pre_year180_mm_pr45.nc $WD/'tmp_prepr45.nc'
       cdo sellonlatbox,$lon2,$lon1,$lat2,$lat1 $WD/pre_year180_mm_pr85.nc $WD/'tmp_prepr85.nc'
 
-#Output the timeseries to separate files
+# Output the yearly timeseries of precipitation to the separate files
       cdo outputtab,lat,lon,year,value $WD/'tmp_prehm.nc' > $WDU/$id'_pre_mod.txt'
       cdo outputtab,lat,lon,year,value $WD/'tmp_prepr26.nc' >> $WDU/$id'_pre_mod26.txt'
       cdo outputtab,lat,lon,year,value $WD/'tmp_prepr45.nc' >> $WDU/$id'_pre_mod45.txt'
@@ -87,10 +81,10 @@ while read filename; do
       sed -i 's/,/ /g' $WDU/$id'_pre_mod*.txt'
 
 
-#delete temporal nc
+# delete temporal nc
       rm $WD/tmp_*
 
-#The observed data is represented in the grids with resolution of 0.5x0.5 Degrees, thus the neasert point is found in the boundaries of 0.5 degrees
+# Observed data are grided on resolution of 0.5x0.5 Degrees, thus the neasert point is found in the boundaries of 0.5 degrees
      lat1=`echo "$lat + 0.25" | bc`
      lat2=`echo "$lat - 0.25" | bc`
      lon1=`echo "$lon + 0.25" | bc`
