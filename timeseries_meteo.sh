@@ -1,5 +1,5 @@
 #!/bin/bash
-#  Description: METEOROLOGIAL MODULE OF THE MODEL 
+#  Description: METEOROLOGIAL MODULE OF MARCS MODEL 
 #  Experiment: SINGLE CATCHMENT 
 #  16 Jul 2016, 16:00
 #  Current Code Owner: FMI, Elena Shevnina
