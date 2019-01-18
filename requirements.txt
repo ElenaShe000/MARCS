@@ -1,1 +1,4 @@
-netCDF4
+# Tested on Ubuntu 18.
+# CDO climate data operator sotware https://code.mpimet.mpg.de/projects/cdo
+# Phyton3.6 
+#
