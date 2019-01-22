@@ -14,5 +14,9 @@ timeseries_meteo_regional.sh includes cdo script to extract the mean precipitati
 
 Results:
 pvm_GRDC.zip includes the yearly time series extracted from the GRDC dataset;
+
 reference_climate.zip includes the yearly values from the monthly values using the data by NOAA: precip.mon.total.v401.nc;
 
+regional_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the regional climate model RCM4 under MPI-ESM-LM tuns for the RCP26, RCP45 and RCP85 climate scenarios;
+
+catchment_att.zip includes the boundary for 12 Finnis river studied. 
