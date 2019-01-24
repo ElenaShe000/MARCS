@@ -2,7 +2,7 @@
 #  Description: MARCS SETUP MODULE: HYDROLOGY + PRECIPITATION
 #  Experiment: SINGLE CATCHMENT
 #  31.05.2018
-#  Current Code Owner: Elena Shevnina, Finnish Meteorological Institute
+#  Code Owner: Elena Shevnina, Finnish Meteorological Institute
 #  ph. +358449185446
 #  e-mail:eshevnina@gmail.com
 
@@ -11,10 +11,10 @@ import numpy as np
 from scipy.stats import moment
 import pandas as pd
 
-# WORKING DIRECTORY
+# to define a WORKING DIRECTORY
 WD = './'
 
-# Convert string argument to digit
+# to convert string argument to digit
 def to_digit(x):
     try:
         if x.isdigit():
@@ -24,20 +24,20 @@ def to_digit(x):
         return False
 
 
-#Input file contains yearly time series of discharge and site's metedata
-#fn = 'pvm_6730501.txt'
+# Input argument: the name of file with the yearly time series of discharge and site's metadata in format of GRDC database
+# see details https://www.bafg.de/GRDC/EN/01_GRDC/13_dtbse/database_node.html
 fn=str(sys.argv[1])
 
 with open(fn, 'r') as f:
      arr = f.readlines()
 
 
-# getting metadata
+# to get the GRDC ID, the observational period and a catchment area 
 grdc = arr[8][25:-2]
 area = float(arr[14][27:-2])
 nlines = int(arr[24][24:-2]) + 48
 
-# read discharge data
+# to read the yearly time series of water discharge data, yearly time scale
 year = []
 d = []
 for i in range(48, nlines):
@@ -48,6 +48,7 @@ for i in range(48, nlines):
 q = []
 ty = 365*24*60*60
 
+# to convert annual water discharges (m3s-1) to the annual runoff rate (mm yr-1)
 for i in range (0, len(d)):
     if d[i] == -999.0: 
         q.append(np.nan)
@@ -58,29 +59,21 @@ for i in range (0, len(d)):
 rr = pd.Series(q, index=year)
 
 
-#to define the reference period with the "floating window" technique, n=15
-#res_df=np.zeros(8,dtype=float)
-#columns = ['year','spr','spr_pv','fsr','stt','stt_pv','kst','kst_pv']
-#invar = rr
-#for i in range (0,len(invar)-29):
-#    index=invar.index[i+14]
-#    spr=stats.spearmanr(invar.values[i:i+14],invar.values[i+15:i+29],nan_policy='omit') #test for the trends
-#    fsr=np.nanvar(invar.values[i:i+14])/np.nanvar(invar.values[i+15:i+29]) #test for difference in variance
-#    stt=stats.ttest_ind(invar.values[i:i+14],invar.values[i+15:i+29],nan_policy='omit') #test for difference in mean
-#    kst=stats.ks_2samp(invar.values[i:i+14],invar.values[i+15:i+29])  #test for similarity
-#    df=np.array([index,spr[0],spr[1],fsr,stt[0],stt[1],kst[0],kst[1]]) #result of calculation
-#    res_df=np.vstack((res_df,df))
-
-
-#non-central statistical moments for the reference period
+# to set-up the reference period manually 
+# additional option to define a reference period is using the floating point/period algoritms (Shevnina et al., 2017)
 y_beg = 1950
 y_end = 1990
 
+# to calculate three non-central moments estimates for the annaul runoff rate 
+# for the reference period
 m1 = np.nanmean(rr.loc[y_beg:y_end].values)
 m2 = moment(rr.loc[y_beg:y_end].values, moment=2, nan_policy='omit') + m1 * m1
 m3 = moment(rr.loc[y_beg:y_end].values, moment=3,nan_policy='omit') + 3 * m2 * m1 - 2 * m1 * m1 * m1
 
-#precipitation fro the reference period
+# to read the yearly time seris of annual precipitation amount (mm yr-1) for the reference period
+# these time series were extracted from gridded dataset of NOAA/OAR/ESRL PSD, Boulder, Colorado, USA,
+# the web site at http://www.esrl.noaa.gov/psd/
+
 filename = grdc +'_pre_obs.txt'
 pre_otmp = []
 with open(filename,'r') as f:
@@ -102,9 +95,10 @@ for i in range (0, len(pre_otmp)):
 pre_obs=pd.Series(t4, index=t3)
 del t1, t2, t3, t4, tmp, pre_otmp
 
+# to calculate mean value of the annual precipitation amount for the reference period
 pre = np.mean(pre_obs.loc[y_beg:y_end].values)
 
-
+# to save the model set-up output file
 fileout = 'Modelsetup_reference.txt'
 with open(fileout, 'a') as f:
      f.write("%s %s %s %s %s\n" % (grdc, m1, m2, m3, pre))
