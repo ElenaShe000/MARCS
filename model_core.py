@@ -2,7 +2,7 @@
 #  Description: MARCS MAIN MODULE WITH BASIC PARAMETRIZATION
 #  Experiment: SINGLE CATCHMENT
 #  05.03.2018
-#  Current Code Owner: Elena Shevnina, Finnish Meteorological Institute
+#  Code Owner: Elena Shevnina, Finnish Meteorological Institute
 #  ph. +358449185446
 #  e-mail:eshevnina@gmail.com
 
