@@ -7,6 +7,8 @@ model_core.py includes the model core version 0.3 (Shevnina and Silaev, 2018: ht
 
 model_setup.py includes calculation of the annual specific discharges (mm yr-1) from the datafiles of GRDC;
 
+model_crossvalidation.py includes the procedure of hindcasting according to Shevnina et al., 2017; Kovalenko, 1993;
+
 timeseries_meteo.sh includes cdo script to extract the yearly precipitation time series from the CMIP5 climate projections (RCP26, RCP45 and RCP 85) and the climatology of NOAA dataset for the period of 1990-2014. The time series are extracted at the grid node nearest to a watershed centroide (crd_wcentr.txt);
 
 timeseries_meteo_regional.sh includes cdo script to extract the mean precipitation for the lon/lat box covering Finland from the CORDEX climate projection of the RCM4 model under RCP26, RCP45 and RCP 85;
