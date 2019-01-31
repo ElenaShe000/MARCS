@@ -22,3 +22,5 @@ reference_climate.zip includes the yearly values from the monthly values using t
 regional_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the regional climate model RCM4 under MPI-ESM-LM tuns for the RCP26, RCP45 and RCP85 climate scenarios;
 
 catchment_att.zip includes the boundary for 12 Finnis river studied. 
+
+ModelCrossvalidationRes.txt includes the results of the model validation with the basic parameterization scheme
