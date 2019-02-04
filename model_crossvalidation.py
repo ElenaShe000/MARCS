@@ -41,7 +41,7 @@ with open(fn, encoding="utf8", errors='ignore') as f:
      arr = f.readlines()
 
 grdc = arr[8][25:-1]
-area = float(arr[14][27:-1])
+area = float(arr[14][26:-1])
 nlines = int(arr[24][24:-1]) + 48
 
 # to read water discharge (m3s-1) data
