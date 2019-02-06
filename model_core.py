@@ -1,7 +1,7 @@
 #!/usr/bin/python 
 #  Description: MARCS CORE 0.3: BASIC PARAMETRIZATION 
-#  Experiment: SINGLE CATCHMENT
-#  06.02.2019
+#  Experiment: 12 FINNISH CATCHMENTS
+#  05.03.2018
 #  Code Owner: Elena Shevnina, Finnish Meteorological Institute
 #  ph. +358449185446
 #  e-mail:eshevnina@gmail.com
