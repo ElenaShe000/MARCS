@@ -8,6 +8,7 @@
 
 import sys
 import math as ma
+import string
 
 # Input Variables:
 # WID - id of the watershed
@@ -90,47 +91,73 @@ def foo_1(m1, m2, m3, a_p, b0_p, b1_p):
     m1_p = a_p - b1_p
     m2_proj = a_p * m1_p - 2 * m1_p * b1_p - b0_p
     m3_proj = m2_proj * a_p - 2 * m1_p * b0_p - 3 * m2_proj * b1_p
-
     # Coefficient of variation (CV) based on the moments (Rogdestvensky, 1988)
     cv_r = ma.sqrt(m2 - m1 ** 2) / m1
     cv_p = ma.sqrt(m2_proj - m1_p ** 2) / m1_p
-
     # Moment skweness coefficient (Kovalenko et al. 2006, p.249)
     cs_r = (m3 - 3 * m2 * m1 + 2 * m1 ** 3) / (cv_r ** 3 * m1 ** 3)
     cs_p = (m3_proj - 3 * m2_proj * m1_p + 2 * m1_p ** 3) / (cv_p ** 3 * m1_p ** 3)
-
     return cs_r, cs_p, m1_p, cv_p, cv_r
 
 
 # MAIN CODE
 
-# MODEL INPUT: RUNOFF STATISTICAL MOMENTS
-# 
+# MODEL INPUT: ANNUAL RUNOFF STATISTICAL MOMENTS AND REFERENCE PRECIPITATION
+fn = WD + 'Modelsetup_reference.txt'
+arr = []
+with open(fn, 'r') as f:
+     arr = f.readlines()
+        
+f.close()
+reference = arr[0]
 
-# NPRE_PROJ = 670
-# NPRE_PROJ = to_digit(sys.argv[1])
-# Name_sce = str(sys.argv[1])
-# MODEL INPUT:  Reference climatology
-# M1_REF = 379.230447067
-# M2_REF = 149343.387513
-# M3_REF = 60811610.4455
-# NPRE_REF = 625.49223301
+gidr, m1r, m2r,m3r,pr = reference.split(' ')
+gid = int(gidr)
+M1_REF = to_digit(m1r) # (MM YR-1)
+M2_REF = to_digit(m2r)
+M3_REF = to_digit(m3r)
+NPRE_REF = to_digit(pr) # (MM YR-1)
+del gidr, m1r, m2r,m3r,pr
+
+# MODEL FORCING: MEAN ANNUAL PRECIPIPATION (MM YR-1)
+
+WCl = '/home/shevnina/Manuscripts/2019/UnivGeosc/support_data/regional_climate_forcing.csv'
+climate_tmp = []
+with open(WCl,'r') as f:
+      for line in f:
+          climate_tmp = f.read().split('\n')
+        
+climate = []     
+for i in range(0, len(climate_tmp)):
+    tmp = climate_tmp[i].split(',')
+    tmp_id = int(tmp[0])
+    if tmp_id == gid:
+        climate = tmp
+         
+            
+RIVER = climate[1]
+STATION = climate[2]
+rcp26 = float(climate[9])
+rcp45 = float(climate[10])
+rcp85 = float(climate[11])
+
+########### RCP26 ######################################################################################
+NPRE_PROJ = rcp26
 if not NPRE_PROJ:
     print('Use command: python model_core.py NPRE_PROJ')
     exit(1)
-
 # PREDICTION: GENERAL SCHEME, CONSTANT PARAMETERS
-
 a, b0, b1 = basic_param_pearson(M1_REF, M2_REF, M3_REF)
-
 c_proj, gn_proj, gcn_proj = basic_param_fpk(a, b0, b1, NPRE_REF)
-
 a_proj, b0_proj, b1_proj = foo_0(gcn_proj, c_proj, NPRE_PROJ)
-
 cs_ref, cs_proj, m1_proj, cv_proj, cv_ref = foo_1(M1_REF, M2_REF, M3_REF, a_proj, b0_proj, b1_proj)
 
-# OUTPUT: TEXT LINE: WID, M1_REF, NPRE_REF, CV_REF, CS_REF, c, Gn, Gcn, M1_PROJ, NPRE_PROJ, CV_PROJ, CS_PROJ
+# CONSTRUCTION OF EPC WITH PEARSON TYPE III
 
-with open(WD + 'model_GPSCH.txt', 'a') as f:
-    f.write("%s %s %s %s %s %s %s %s %s %s %s %s\n" % (
-        WID, M1_REF, NPRE_REF, cv_ref, cs_ref, c_proj, gn_proj, gcn_proj, m1_proj, NPRE_PROJ, cv_proj, cs_proj))
+
+# OUTPUT: TEXT LINE: WID, M1_REF, NPRE_REF, CV_REF, CS_REF, c, Gn, Gcn, M1_PROJ, NPRE_PROJ, CV_PROJ, CS_PROJ
+with open(WD + 'model_output_regional.txt', 'a') as f:
+    f.write("%s %s %s %s %s %s %s %s %s %s %S\n" % (
+        gid, RIVER, STATION, m1_proj, 'RCP26', cv_proj, cs_proj, arr10, arr50, arr90))
+    
+    
