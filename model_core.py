@@ -1,7 +1,7 @@
 #!/usr/bin/python 
-#  Description: MARCS MAIN MODULE WITH BASIC PARAMETRIZATION
+#  Description: MARCS CORE 0.3: BASIC PARAMETRIZATION 
 #  Experiment: SINGLE CATCHMENT
-#  05.03.2018
+#  06.02.2019
 #  Code Owner: Elena Shevnina, Finnish Meteorological Institute
 #  ph. +358449185446
 #  e-mail:eshevnina@gmail.com
@@ -39,22 +39,16 @@ import math as ma
 # Temporal Variables:
 
 # WORKING DIRECTORY
-WD = './'
-
-# MODEL INPUT: RUNOFF STATISTICAL MOMENTS, Reference climatology
-M1_REF = 379.230447067
-M2_REF = 149343.387513
-M3_REF = 60811610.4455
-NPRE_REF = 625.49223301
+# WD = './'
+WD = '/home/shevnina/Manuscripts/2019/UnivGeosc/support_data/'
 
 # CATCHMENT ID
-WID = '6854600'
+WID = str(sys.argv[1])
 
-
-# REFERENCE PERIOD: 1911-2014
+# REFERENCE PERIOD: 1950-1990
 # AND PROJECTED PERIOD: 2020-2050
 
-
+###################################### FUNCTIONS ##########################################
 # Convert string argument to digit
 def to_digit(x):
     try:
@@ -64,10 +58,8 @@ def to_digit(x):
     except ValueError:
         return False
 
-
 # PARAMETERIZATION: GENERAL SCHEME, CONSTANT PARAMETERS
 # Equations 23-25 (Shevnina and Silaev, 2018) and (Kovalenko et al., 2006 p. 247-249)
-
 def basic_param_pearson(m1, m2, m3):
     low_index = 2 * (m2 - m1 ** 2)
     a_local = (5 * m1 * m2 - 4 * m1 ** 3 - m3) / low_index
@@ -77,7 +69,6 @@ def basic_param_pearson(m1, m2, m3):
 
 
 # Equations 26-28 (Shevnina and Silaev, 2018) and (Kovalenko et. al 2006).
-
 def basic_param_fpk(a_local, b0_local, b1_local, npre_local):
     low_index = (a_local - b1_local / 2)
     gcn = npre_local * b1_local / low_index
@@ -113,11 +104,17 @@ def foo_1(m1, m2, m3, a_p, b0_p, b1_p):
 
 # MAIN CODE
 
-# MODEL INPUT: projected climatology
-# NPRE_PROJ = 670
-NPRE_PROJ = to_digit(sys.argv[1])
-# Name_sce = str(sys.argv[1])
+# MODEL INPUT: RUNOFF STATISTICAL MOMENTS
+# 
 
+# NPRE_PROJ = 670
+# NPRE_PROJ = to_digit(sys.argv[1])
+# Name_sce = str(sys.argv[1])
+# MODEL INPUT:  Reference climatology
+# M1_REF = 379.230447067
+# M2_REF = 149343.387513
+# M3_REF = 60811610.4455
+# NPRE_REF = 625.49223301
 if not NPRE_PROJ:
     print('Use command: python model_core.py NPRE_PROJ')
     exit(1)
