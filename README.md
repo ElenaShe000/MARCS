@@ -19,8 +19,16 @@ pvm_GRDC.zip includes the yearly time series extracted from the GRDC dataset;
 
 reference_climate.zip includes the yearly values from the monthly values using the data by NOAA: precip.mon.total.v401.nc;
 
-regional_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the regional climate model RCM4 under MPI-ESM-LM tuns for the RCP26, RCP45 and RCP85 climate scenarios;
+regional_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the regional climate model RCA4 of the MPI-ESM-LR (Standberg et al., 2014) for the RCP26, RCP45 and RCP85 climate scenarios;
 
+global_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the global climate models HadGEM2-ES (Collins et al., 2011) and MPI-ES-LR (Giorgetta et
+al., 2013) under and three Representative Concentration Pathways (RCP26, RCP45 and RCP85) scenarios;
+ 
 catchment_att.zip includes the boundary for 12 Finnis river studied. 
 
 ModelCrossvalidationRes.txt includes the results of the model validation with the basic parameterization scheme
+
+model_output_global.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the global model MPI-ESM-LR (one model grid point per catchment). 
+
+model_output_regional.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the regional model RCA4 of the MPI-ESM-LR (several grid points per catchment). 
+
