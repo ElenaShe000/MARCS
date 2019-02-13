@@ -24,11 +24,17 @@ regional_climate_forcing.csv includes the delta corrected mean values of annual 
 global_climate_forcing.csv includes the delta corrected mean values of annual precipitation (mm yr-1) extracted from the global climate models HadGEM2-ES (Collins et al., 2011) and MPI-ES-LR (Giorgetta et
 al., 2013) under and three Representative Concentration Pathways (RCP26, RCP45 and RCP85) scenarios;
  
-catchment_att.zip includes the boundary for 12 Finnis river studied. 
-
 ModelCrossvalidationRes.txt includes the results of the model validation with the basic parameterization scheme
 
 model_output_global.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the global model MPI-ESM-LR (one model grid point per catchment). 
 
-model_output_regional.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the regional model RCA4 of the MPI-ESM-LR (several grid points per catchment). 
+model_output_regional.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the regional model RCA4 of the MPI-ESM-LR (several grid points per catchment).
+
+GIS layers:
+catchment_att.zip includes the boundary for 12 Finnis river according to the GRDC
+valu1005120800383_453212_7191507.zip includes the catchment of Oulunjoki at Leppiniemi (Montta hydropower plant)
+
+
+
+
 
