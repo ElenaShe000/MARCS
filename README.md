@@ -1,6 +1,6 @@
 # MARCS
 Probabilistic hydrological model MARKov Chain System:  application to Finland (Shevnina et al., 2018: 10.13140/RG.2.2.19380.55681)
-# General Description
+### General Description
 This setup of the model includes the code on Python and CDO driving by BASH scripts. There are four blocks of the code: 
 
 model_core.py includes the model core version 0.3 (Shevnina and Silaev, 2018: https://doi.org/10.5194/gmd-2018-108);
@@ -14,7 +14,7 @@ timeseries_meteo.sh includes cdo script to extract the yearly precipitation time
 timeseries_meteo_regional.sh includes cdo script to extract the mean precipitation for the lon/lat box covering Finland from the CORDEX climate projection of the RCM4 model under RCP26, RCP45 and RCP 85;
 
 
-Results:
+### Results:
 pvm_GRDC.zip includes the yearly time series extracted from the GRDC dataset;
 
 reference_climate.zip includes the yearly values from the monthly values using the data by NOAA: precip.mon.total.v401.nc;
@@ -30,8 +30,12 @@ model_output_global.txt includes the mean and 10/90% extremes of annual runoff r
 
 model_output_regional.txt includes the mean and 10/90% extremes of annual runoff rate (mm yr-1) simulated from the forcing of the regional model RCA4 of the MPI-ESM-LR (several grid points per catchment).
 
-GIS layers:
-catchment_att.zip includes the boundary for 12 Finnis river according to the GRDC
+### GIS layers and coordinates:
+
+catchment_att.zip includes the boundary for 12 Finnis river according to the GRDC;
+
+crd_wcentr.txt includes the coordinates of the watersheds’ centroids calculated from the polygons of river basins; 
+
 valu1005120800383_453212_7191507.zip includes the catchment of Oulunjoki at Leppiniemi (Montta hydropower plant)
 
 
