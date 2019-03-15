@@ -1,7 +1,7 @@
 # MARCS:HYDRO v1.2
 ## Story
 Probabilistic hydrological model MARKov Chain System: hydrology (MARCS:HYDRO) is started in 2015 within version 0.1 (Shevnina, 2015). The model includes six blocks to separate the tasks into groups. There are two blocks to analysis and screening of observed data, the block with the model parametrization, cross-validation and hind casts (Shevnina et al., 2017), the block to visualize model’s results and the block with socio-economic applications (Shevnina and Gaidukova, 2017). In the version 0.1 (annex to Shevnina et al., 2017), the set of codes with mix computer's languages are used in the blocks, which are connected by a bash script.  
-The MARCS:HYDRO model version 0.1 is used on a regional scale studies on floods (Shevnina, 2015; Shevnina et al., 2017), it needs to be improved in many sences. 
+The MARCS:HYDRO model version 0.1 is used on a regional scale studies on floods (Shevnina, 2015; Shevnina et al., 2017), it needs to be improved in many sences. The model core version 0.2 is introduced in (Shevnina and Silaev, 2018).
 
 ## Basic approach and limitations
 An Advanced of Frequency Analysis (AFA) method is introduced by Kovalenko (1993) relying on a theory of stochastic
@@ -32,4 +32,5 @@ long-term planning of socio-economic infrastructure in the Russian Arctic, Hydro
 doi:10.5194/hess-21-2559-2017, 2017.
 Shevnina, E. and Gaidukova E.V.: Hydrological probabilistic model MARCS and its application to simulate the probability
 density functions of multi-year maximal runoff: the Russian Arctic as a case of study, in: The Interconnected Arctic, Springer International Publishing, 77–87, doi: 10.1007/978-3-319-57532-2_8, 2017.
+Shevnina E & Silaev A. 2018. The probabilistic hydrological model MARCS (MARkov Chain System): the theoretical basis for the core version 0.2, doi: 10.5194/gmd-2018-108.
 
