@@ -15,14 +15,13 @@ Long-term plannig on a socio-economic development needs for a climate scale pred
 
 The model core version 0.1 is applyed in "climate" time scale estimations of hydrological impact. It produces the probabilistic hydrological projections or the predicted exceedance probability curves of the annual, yearly minimum and maximum runoff. To run the model it is needed 20-30y mean values of the precipitation and/or the air temperature (Shevnina and Silaev, 2018; Shevnina, 2015; Kovalenko, 2004). 
 
-The model core vesrion 1.0 is applyed in seasonal scale estimations of hydrological impact. It produces an exceedance probability curve of the seasonal (monthly) river runoff. To run the model core one needs to the mean/standard deviation values for the precipitation (Domingues and Rivera, 2010; Shevnina, 2001). It is started in January 2021 supported by AFEC project (PI, Timo Vihma, Academy of Finland, 2020-2024, contract number ).
+The model core vesrion 1.0 is applyed in seasonal scale estimations of hydrological impact. It produces an exceedance probability curve of the seasonal (monthly) river runoff. To run the model core one needs to the mean/standard deviation values for the precipitation (Domingues and Rivera, 2010; Shevnina, 2001). It is started in January 2021 supported by AFEC project (PI Timo Vihma, Academy of Finland, 2020-2024, contract number XXXX).
 
 
 ## To be implemented 2021
-to improve core 0.1: The implementation of the regional oriented parametrization scheme (Shevnina, 2011) is our next step further. Also, a “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
-
-to improve core version 1.0:
-the hydrological time series analysis  
+to improve core 0.1: 
+1.  implementation of the regional oriented parametrization scheme (Shevnina, 2011) is our next step further. 
+2.  “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
 
 
 ## see the list of References in the work of Shevnina and Silaev (2019).
