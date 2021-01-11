@@ -50,6 +50,7 @@ AK by 11.01.2021: "The reanalysis before 1979 may be not as good as that after 1
 
 
 ## References 
+Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., Strandberg, G., Tyrlis, E., Wang,  S.,   Wilcke, R., 2020: On the contribution of internal climate variability to European future climate trends, Tellus A: Dynamic Meteorology and Oceanography, 72:1, 1-17, DOI: 10.1080/16000870.2020.1788901 
 
 hydrological datasets:
 grided... Ghiggi, G., Humphrey, V., Seneviratne, S. I., and Gudmundsson, L.: GRUN: an observation-based global gridded runoff dataset from 1902 to 2014, Earth Syst. Sci. Data, 11, 1655–1674, https://doi.org/10.5194/essd-11-1655-2019, 2019. 
