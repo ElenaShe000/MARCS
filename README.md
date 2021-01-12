@@ -8,16 +8,18 @@
 What is the Arctic Amplification?
 AA is started late 1990s, and the legths of the observated time series is still too short to distigush natural variability from one forced by human activity (Koenigk et al., 2020; XX). 
 
-How the AA is detected in the meteorological observations?
+How the AA is detected in the meteorological observations at sites?
 
 the long term SYNOP meteorological network includes the observational sites collected the meterological parameters with unifyed methods and measuring techiques (WMO Guidelins, XXX). The list of the meteorological variables measured at the SYNOP stations:
 2m air temperature, 10 m wind speed and direction, precipitation, relative humidity, atmospheric presure, soil temperature, etc. (WMO, XXX).
 
-How the SYNOP observations are used in the analyses of the synoptic scale processes?
+
+How the data from SYNOP sites are used in the analyses of the synoptic scale processes?
 
 What is the climate reanalyses?
 
-Source of the modelled meteorological variables: 2m air temperature, wind speed, net precipitation, evaporation, surface river runoff... 
+Source of the modelled meteorological variables: 2m air temperature, wind speed, net precipitation, 
+and modelled evaporation calculated with the energy budget method (?)
 
 How AA affects to climate and weather in Europe?
 
@@ -79,7 +81,7 @@ the study is based both on observational data amd model simulations....
 
 # hydrological observations
 In our study we used ... 
-A) ... 
+A) ... Gu
 
 
 
@@ -141,6 +143,8 @@ How the reanalyses reproduce the observations at the nearest SYNOP stations?
 Arheimer, B. and Lindström, G.: Climate impact on floods: changes in high flows in Sweden in the past and the future (1911–2100), Hydrol. Earth Syst. Sci., 19, 771-784, doi:10.5194/hess-19-771-2015, 2015. 
 
 Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., Strandberg, G., Tyrlis, E., Wang,  S.,   Wilcke, R., 2020: On the contribution of internal climate variability to European future climate trends, Tellus A: Dynamic Meteorology and Oceanography, 72:1, 1-17, DOI: 10.1080/16000870.2020.1788901 
+
+Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow Indices and Metadata Archive (GSIM) – Part 2: Quality control, time-series indices and homogeneity assessment, Earth Syst. Sci. Data, 10, 787–804, https://doi.org/10.5194/essd-10-787-2018, 2018. 
 
 freshwater inflow to the Arctic Ocean: Dyurgerov, M., & Carter, C. (2004). Observational Evidence of Increases in Freshwater Inflow to the Arctic Ocean. Arctic, Antarctic, and Alpine Research, 36(1), 117-122. Retrieved January 12, 2021, from http://www.jstor.org/stable/1552435
 
