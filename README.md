@@ -81,13 +81,12 @@ the study is based both on observational data amd model simulations....
 
 # hydrological observations
 In our study we used ... 
-A) ... Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
+A) ... Gudmunson et al., (2018) analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
+
+Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
 
 RUS: max length 128 (Severnaya Dvina River, Ust' Pinega, 1883 - 2010), lates year 2013; earliest year 1883;
 EU: max length 2018 (Elbe River, Dresden, 1806-2013), latest year 2016; earliest year 1806);
-
-
-
 
 
 B) ... two collections of the water discharches (daily and monthly) distributed by Global Discharge Dataset ( https://www.bafg.de/GRDC/EN/01_GRDC/grdc_node.htm), specifically  the data collected in gauges located on rivers not disturbed by human activity such us runoff regulation nor land cover changes ( https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html). The gauges are mostly located in France and nearby regions, UK, Iceland, Sweden and Finland. Thefore, we additionally used the data provided by the RActic dataset (https://www.bafg.de/GRDC/EN/04_spcldtbss/41_ARDB/ardb_node.html)  to include river catchments located in the Russian Federation.
