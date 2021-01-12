@@ -1,7 +1,8 @@
-##  MARCS:HYDRO v1.2
-## contribution from AFEC project: Jan,20212 to ...
+##  Hydropower risks in rapidly warming Arctic: towards seasonal prediction of hydrological extremes in Europe.
+## contribution from AFEC project: Jan,2021 to ...
 
 (e.shevnina, t.vihma, a.karpechko)
+
 # Introduction 
 
 What is the Arctic Amplification?
