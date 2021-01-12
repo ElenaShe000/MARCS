@@ -11,12 +11,13 @@ AA is started late 1990s, and the legths of the observated time series is still 
 How the AA is detected in the meteorological observations?
 
 the long term SYNOP meteorological network includes the observational sites collected the meterological parameters with unifyed methods and measuring techiques (WMO Guidelins, XXX). The list of the meteorological variables measured at the SYNOP stations:
-2m air temperature, 10 m wind speed and direction, relative humidity, atmospheric presure, soil temperature etc (WMO, XXX).
+2m air temperature, 10 m wind speed and direction, precipitation, relative humidity, atmospheric presure, soil temperature, etc. (WMO, XXX).
 
 How the SYNOP observations are used in the analyses of the synoptic scale processes?
 
 What is the climate reanalyses?
 
+Source of the modelled meteorological variables: 2m air temperature, wind speed, net precipitation, evaporation, surface river runoff... 
 
 How AA affects to climate and weather in Europe?
 
