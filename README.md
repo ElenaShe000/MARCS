@@ -89,12 +89,17 @@ A) ... Gudmunson et al., (2018) analyse the quality of the observed time series 
 Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
 
 RUS: max length 128 (Severnaya Dvina River, Ust' Pinega, 1883 - 2010), lates year 2013; earliest year 1883;
-EU: max length 2018 (Elbe River, Dresden, 1806-2013), latest year 2016; earliest year 1806);
+EU: max length 2008 (Elbe River, Dresden, 1806-2013), latest year 2016; earliest year 1806);
 
 
 B) ... two collections of the water discharches (daily and monthly) distributed by Global Discharge Dataset ( https://www.bafg.de/GRDC/EN/01_GRDC/grdc_node.htm), specifically  the data collected in gauges located on rivers not disturbed by human activity such us runoff regulation nor land cover changes ( https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html). The gauges are mostly located in France and nearby regions, UK, Iceland, Sweden and Finland. Thefore, we additionally used the data provided by the RActic dataset (https://www.bafg.de/GRDC/EN/04_spcldtbss/41_ARDB/ardb_node.html)  to include river catchments located in the Russian Federation.
 
 TV: How about Ukraine, Belorus and the Baltic countries? 
+UA: the longest time series is 39 years, all time series end on 1990;
+Belorus: 1 gauge
+Baltic: 3 gauges ES+LT
+Spain: the longest time series is 39 year (from 1970s t0 2013),
+Portugal: no sites.
 
 TV: Are they not included in the data set of pristine rivers?
 
@@ -109,7 +114,7 @@ I am not convinced that we should exclude catchments larger than 50 000 km2. An 
 seems not include very large river basins. Shouldn’t we rather select such rivers that represent a reasonable population of important (large discharge) rivers in different parts of Europe. 
 
 
-TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from Finland, 3/3 Norway/Sweden, 3 from Iceland, 3 Baltic contrries ... all those that are in the map in other European countries.... 10 from Russia." 
+TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from Finland, 3 from Iceland, 3 Baltic contrries ... all those that are in the map in other European countries.... 10 from Russia." 
 
 10 Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
@@ -137,6 +142,9 @@ TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from 
 
 2 Estonia (prischine): Narva Jogi River at Vasknarva, 1903-2014, 112
                        Ema Jogi at Tartu, 1922-2017, 96
+                       
+1 Belorus (Gudmunson et al., 2018): Ptich River at Daraganovo, 1919-1995, 77
+
 2 Germany (Gudmunson et al., 2018): Elbe River at Dresden, 1806-2013, 208
                                    Danube at Achleien, 1990-2013, 114
                                   
@@ -156,6 +164,8 @@ TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from 
 
 1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman at Smalininkai, 1812-2009, 198
 
+We totally selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. 
+                                
 
         
         
