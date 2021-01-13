@@ -1,18 +1,18 @@
-##  Hydropower risks in rapidly warming Arctic: towards seasonal prediction of hydrological extremes in Europe.
+##  Hydropower risks in rapidly warming Arctic: towards seasonal prediction of floods.
 ## contribution from AFEC project: Jan,2021 to ...
 
 (e.shevnina, t.vihma, a.karpechko)
 
 # Introduction 
 
-What is the Arctic Amplification?
-AA is started late 1990s, and the legths of the observated time series is still too short to distigush natural variability from one forced by human activity (Koenigk et al., 2020; XX). 
+What changes are observed in the Arctic?
 
-How the AA is detected in the meteorological observations at sites?
+Observations evident environmental changes may linked to enhanced warming of the Arctic (also known as the Arctic Amplification): shrinkage of an ice cover in the Arctic Ocean, degradation of a permafrost in Siberia, melting of glaciers in Svalbard and Central Asia, shifting in synoptic atmospheric circulation in Europe. In turn, the synoptic atmospheric processes determine regional distribution of the precipitation, the evaporation, the river runoff and water resource of lakes. These changes in the atmospheric circulation leads to weather and hydrological extreme events latest often observed in many European countries (XXX; XXX). These extreme events also known as heat waves and droughts, heavy rainfall and floods,  avalanches, etc. They damage social infrastructure, kill people and result to economical losses. Therefore, the early prediction of these extremes is among the actual task for national hydrometorological service. This study contributed to improving the methods of the seasonal prediction of floods. 
 
-the long term SYNOP meteorological network includes the observational sites collected the meterological parameters with unifyed methods and measuring techiques (WMO Guidelins, XXX). The list of the meteorological variables measured at the SYNOP stations:
-2m air temperature, 10 m wind speed and direction, precipitation, relative humidity, atmospheric presure, soil temperature, etc. (WMO, XXX).
+How the AA is detected?
 
+
+As the unhomogenity in the observed series of meteorological and hydrological series dates to late 1990s, and the legths of the observated  series seems to be too short to distigush the reason of the unhomogenity: would it attribute to natural variability or forced by human activity (Koenigk et al., 2020; XX). 
 
 How the data from SYNOP sites are used in the analyses of the synoptic scale processes?
 
@@ -34,6 +34,9 @@ Korhonene, 2019: "As  Finland  belongs  to  a  humid  zone  in  climate  classif
 
 How the seasonal patterns of precipitation / evaporation / river runoff are changed since late 1990s?
 
+The increase of the near surface temperature leads to changes in  general water balance for many regions. The general water balance is a budget equation relates the precipitation, runoff (surface and underground) and evaporation. 
+
+AA enhances the atmospheric transport of moist air between the Arctic and mid-latitudes, and it contributes to changes in the hydrological cycle, precipitation and clouds (XX; XX). 
 
 What are the risks of hydropower hydropower production? 
 Humans traditionally use water of lakes and rivers in energy production. The hydropower generation is among others social activities highly related to weather phenomena and hydrological regime of the rivers and lakes. The risks of in the hydropower generation is  closely related the hydrological events of rare occurrence (or extremes). These hydrological extremes (including floods and drought) are traditionally estimated from time series of the lake level and/or river water discharge observed at a network of gauges. The observations on the gauges include the water level/stage daily river discharge are usually evaluated the level time series are hydrological observations are mostly launched in begging of the last century, and almost until end of 1990s, no significant trend are observed in the hydrological time series. It allows to apply statistical methods of the frequency analyse (XX) while estimating the hydrological events of rare occurrence, i.e. the floods happened once per 10, 100, or 1000 years. The exceedance probability curves of yearly maximum river runoff provides whole information to assessment of the risks connected to extreme floods in a particular hydropower construction (XX;XX; Shevnina, 2014; Kovalenko, 2004).
