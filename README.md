@@ -111,6 +111,54 @@ seems not include very large river basins. Shouldn’t we rather select such riv
 
 TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from Finland, 3/3 Norway/Sweden, 3 from Iceland, 3 Baltic contrries ... all those that are in the map in other European countries.... 10 from Russia." 
 
+10 Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
+        Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
+        Sukhona at Kalikino, 1881-1998, 116 year
+        Pechora River at Yaksha, 1913-1998, 86 year
+        Onega River at Kazakovo, 1929 - 1999 (?), 71 year
+        Umba at Payalka, 1930 - 1992 (?)
+        Varzuga at Varzuga, 1935 - 1992 (?)
+        Vaga at Ust' Suma, 1956 - 1999 (?), 44 
+        Vuchegda at Malaya Kuzhba, 1930-1999 (?), 69
+        Pinega at Kulogory, 1914-1999 (?), 86
+        
+2 Sweden (prischine): Abiskojakka at Abisko, 1918-2019, 102
+                      Roran at Ytternholmen, 1924-2019, 96
+                      
+3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119
+                                   Tana River at Polmak, 1911-2014, 104
+                                   Glama at Skarnes, 1887-2014, 128
+                                   
+3 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103
+          (Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004,
+                            Nilakka River at Äyskoski, 1886-2004,
+                            
+1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69
+
+2 Estonia (prischine): Narva Jogi River at Vasknarva, 1903-2014, 112
+                       Ema Jogi at Tartu, 1922-2017, 96
+2 Germany (Gudmunson et al., 2018): Elbe River at Dresden, 1806-2013, 208
+                                   Danube at Achleien, 1990-2013, 114
+                                  
+2 GR (prischine): Ribble River at Samlesbury, 1960-2018, 59
+   (Gundmuson et al., 2018): Thames at kingston, 1883-2013, 131
+   
+2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
+       (Gunmunson, 2018): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
+
+1 Chech republic (prischine): Sazava at Zruc nad Sazvoy, 1942-2018, 77
+
+1 Romania (prischine): Szamos at Satu Mare, 1938-2008, 71
+
+1 The Nederlands (prischine): Rhine River at Lobith, 1901-2017, 117
+
+1 Slovakia (prischine): Hroh at Brehy, 1930-2017, 88
+
+1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman at Smalininkai, 1812-2009, 198
+
+
+        
+        
 Table 1 shows the gauges, catchment areas and lengths of the time series, which we used while analyse the seasonal changes in the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
 where Q is a yearly average water discharge, m3s-1; T is a number of seconds in a year, and A is a catchment area, m2. This formula was applied while calculating the water discharge from the annual specific discharge for the projected period.
