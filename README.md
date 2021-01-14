@@ -33,11 +33,16 @@ climate classification?
 Korhonene, 2019: "As  Finland  belongs  to  a  humid  zone  in  climate  classification, a typical feature is the abundance  of  water  bodies  and  peatlands." 
 Beck et al., 2018: maps of climate classification are estimated from 
 
+
 The SYNOP data for a number of the hydrological and meteorological parameters including the precipitation, air temperature, wind speed and directions,  ... snow depth, wind speed, relaive humidity, .... ) daily values at sites: 
 
- in the Global Historical Climatology Network-Daily (GHCN-D) database (latest records 2020): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910, doi:10.1175/JTECH-D-11-00103.1.
+1. the Global Historical Climatology Network-Daily (GHCN-D) database (latest records 2020): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910, doi:10.1175/JTECH-D-11-00103.1.
+ 
+ https://www.ncdc.noaa.gov/ghcn-daily-description
  
 "During the last several decades, the Global Telecommunication System (GTS), operated under the auspices of the World Meteorological Organization (WMO), has allowed National Meteorological and Hydrological Services (NMHSs) to share a wide variety of meteorological data regionally and worldwide. However, there has been no formal mechanism or requirement to share daily data via the GTS and no central repository for daily climate reports from national surface networks. In practice, the transmission of daily climate summaries has been treated as optional even for the network of stations that report temperature, precipitation, surface pressure, etc., at fixed synoptic hours [i.e., every 3 or 6 h for stations in the Regional Basic Synoptic Network (RBSN)]. Similarly, stations in the WMO’s Regional Basic Climate Network (largely a subset of the RBSN) are only required to provide a monthly climate summary known as CLIMAT and likewise do not consistently transmit daily summaries within their synoptic messages (WMO 2003)."
+
+"The Global Summary of the Day contains 24-hour summaries encoded in the special “climatological code” group transmitted with SYNOP reports on the GTS. "
 
 
 The source data are obtained via "contacts with representatives from National Meteorological and Hydrological Centers (NMHCs) around the world, through official bi-lateral agreements, and from a number a data archives" including the Intenational Collection.
@@ -179,10 +184,9 @@ TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from 
 
 1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman at Smalininkai, 1812-2009, 198
 
-We totally selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. 
+We totally selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. The hydrological sites mostly located in two climate zones C and D according to the classification given by Beck et al. (2018).
                                 
-
-        
+      
         
 Table 1 shows the gauges, catchment areas and lengths of the time series, which we used while analyse the seasonal changes in the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
