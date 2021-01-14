@@ -104,36 +104,22 @@ the study is based both on observational data amd model simulations....
 
 # hydrological observations
 In our study we used ... 
-A) ... Gudmunson et al., (2018) analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
+1) the collection of the data by Gudmunson et al., (2018). The authors analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
 
 Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
 
-RUS: max length 128 (Severnaya Dvina River, Ust' Pinega, 1883 - 2010), lates year 2013; earliest year 1883;
-EU: max length 2008 (Elbe River, Dresden, 1806-2013), latest year 2016; earliest year 1806);
+2) the data collected in gauges located on rivers not disturbed by human activity such us runoff regulation nor land cover changes ( https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html). The gauges are mostly located in France and nearby regions, UK, Iceland, Sweden and Finland. 
 
+3) the RArctic collection (https://www.bafg.de/GRDC/EN/04_spcldtbss/41_ARDB/ardb_node.html): to include river catchments located in the Russian Federation.
 
-B) ... two collections of the water discharches (daily and monthly) distributed by Global Discharge Dataset ( https://www.bafg.de/GRDC/EN/01_GRDC/grdc_node.htm), specifically  the data collected in gauges located on rivers not disturbed by human activity such us runoff regulation nor land cover changes ( https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html). The gauges are mostly located in France and nearby regions, UK, Iceland, Sweden and Finland. Thefore, we additionally used the data provided by the RActic dataset (https://www.bafg.de/GRDC/EN/04_spcldtbss/41_ARDB/ardb_node.html)  to include river catchments located in the Russian Federation.
-
-TV: How about Ukraine, Belorus and the Baltic countries? 
-UA: the longest time series is 39 years, all time series end on 1990;
-Belorus: 1 gauge
-Baltic: 3 gauges ES+LT
-Spain: the longest time series is 39 year (from 1970s t0 2013),
-Portugal: no sites.
-
-TV: Are they not included in the data set of pristine rivers?
-
-ES: " I would need a couple of weeks to explore the RArctic data, then it would be possible to have an overview of the data available for the further analyses. " by 4.01.2021
-
-AK by 11.01.2021: "I am also not convinced that we should restrict ourselves to catchments smaller than 50000 km2. Yes, river gauges located downstream of large catchment areas will be affected by processes occurring over large areas which may complicate understanding of the processes. For example, there may be compensation between increased precipitation in one region and decreased precipitation in another region leading to no signal in the river discharge downstream. However it will still be interesting to relate river discharge data to certain types of circulation. Maybe even river gauges from the same catchment area but located in different parts of the catchment will show different signals, which is still interesting I think. To me more important criteria should be the length of the gauge data. It’s pity there is no data after 2014."
 
 Further, the gauges oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Many studies reccoment also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Shevnina et. al., 2017; Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). 
 
 I have selected 35 gauges located at the European rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series of a good quality; (d) located in various climate (vegetation) zones.  Figure at the attachement shows the location of the gauges colored according to the sources offered the metadata: the GRDC climate stations (red dots); the dataset collection by Gunmunsson et al., 2018 (blue dots) and the RArctic dataset (orange dots) were used used. In each dataset, the metadata includes the river name, station name, altitude, catchemnt area, date of start/end of series, the length, overview on the quality control and national indentification. 
 
-The hydrological sites mostly located in two climate zones (C and D according to Beck et al., 2018). 
+The hydrological sites mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 13 gauges located in Russia, 3 gauges in Norway, 2 gauges in Finalnd, Sweden, Estonia, Germany, France, GB, and 1 gauges in NL, Iceland, Belorus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.
 
-The list of the stations:
+
 10  Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
         Sukhona at Rabanga, 1877-1999, 106 year
@@ -261,6 +247,7 @@ Danilovich, I., Wrzesínski, D. & Nekrasova, L. 2007. Impact of the North Atlant
 Hodgkins,  G.A.,  Whitfield,  P.H.,  Burn,  D.H.,  Hannaford,  J.,  Renard,  B.,  Stahl,  K.,  Fleig,  A.K.,  Madsen,  H.,  Mediero,  L.,  Korhonen,  J.,  Murphy,  C.  &  Wilson,  D.  2017.  Climate-driven  variability  in  the  occurrence  of  major  floods  across  North  America and Europe. Journal of Hydrology 552, 704–717. 
 
 Korhonen, J. & Kuusisto, E. 2010. Long-term changes in the discharge regime in Finland. Hydrology Research41(3-4), 253–268.
+Korhonen, 2019: 
 
 Monin A. S.1986. An Introduction to the Theory of Climate. Reidel, Dordrecht.
 
