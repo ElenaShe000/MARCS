@@ -64,7 +64,7 @@ Humans traditionally use water of lakes and rivers in energy production. The hyd
 trends in hydrological time series: Finland 13 non regulated basins, Korhonen and Kuusisto, 2010; Russian Arctic, Shevnina, 2013; 
 Korhonen, 2019: "the  analyses  show  statistically  significant  changes  in  both  ice  cover  and  discharge  regime until the early 21st century". 
 Nowadays, the stationary assumption is doubted due to trends detected in time series observed meteorological variables (Vihma et al., 2016) as well as in river water discharges [Rosmann et al., 2016; Milly et al., 2005; 2008].
-Shevnina et al., 2019; Shevnina
+Shevnina et al., 2019; Shevnina, 2011
 
 Why hydropower production is important?
 Most of hydropower plants have no artificial reservoirs to redistribute water year-by-year, and they operate as run-of-river facility forced by naturally flowing river water  through canals or penstocks to spin a turbine [47]. The hydropower production on run-of-river plants depends strongly on a river water discharge, since there are no tools to regulate water stream flow.
@@ -129,13 +129,11 @@ AK by 11.01.2021: "I am also not convinced that we should restrict ourselves to 
 
 Further, the gauges with the longest hydrological time series were selected in each 
 
-Further, we selected the gauges on river catchment area within the appropriate scale: from 1000 km2 (to skip off local scale features on small catchments) to 50000 km2 (to miss out big catchments with the hydrological regime affected by global scale features). 
-I am not convinced that we should exclude catchments larger than 50 000 km2. An area as small as 200 km x 250 km already makes 50 000 km, which is much smaller than a typical radius of a synoptic-scale cyclone. I agree that analysis addressing discharge of a very large river may be challenging, as inter-annual variations in atmospheric circulation, moisture transport and precipitation may be different in different parts of the river basin, but I think it should still be possible to discover the net effect of meteorological factors to discharge. Further, the map of pristine basins at https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html
-seems not include very large river basins. Shouldn’t we rather select such rivers that represent a reasonable population of important (large discharge) rivers in different parts of Europe. 
+Further, the gauges oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Many studies reccoment also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Shevnina et. al., 2017; Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). 
 
+We selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. The hydrological sites mostly located in two climate zones C and D according to the classification given by Beck et al. (2018).
 
-TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from Finland, 3 from Iceland, 3 Baltic contrries ... all those that are in the map in other European countries.... 10 from Russia." 
-
+The list of the stations:
 10 Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
         Sukhona at Kalikino, 1881-1998, 116 year
@@ -184,11 +182,10 @@ TV by 07.01.2021: "Perhaps no more than 4 rivers from France, 3 from UK, 4 from 
 
 1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman at Smalininkai, 1812-2009, 198
 
-We totally selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. The hydrological sites mostly located in two climate zones C and D according to the classification given by Beck et al. (2018).
-                                
+                               
       
         
-Table 1 shows the gauges, catchment areas and lengths of the time series, which we used while analyse the seasonal changes in the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
+Table 1 shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
 where Q is a yearly average water discharge, m3s-1; T is a number of seconds in a year, and A is a catchment area, m2. This formula was applied while calculating the water discharge from the annual specific discharge for the projected period.
 
