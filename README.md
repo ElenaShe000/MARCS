@@ -31,6 +31,21 @@ What will be impacts of the expected climate change in various economical sector
 
 climate classification?
 Korhonene, 2019: "As  Finland  belongs  to  a  humid  zone  in  climate  classification, a typical feature is the abundance  of  water  bodies  and  peatlands." 
+Beck et al., 2018: maps of climate classification are estimated from 
+
+The SYNOP data for a number of the hydrological and meteorological parameters including the precipitation, air temperature, wind speed and directions,  ... snow depth, wind speed, relaive humidity, .... ) daily values at sites: 
+
+ in the Global Historical Climatology Network-Daily (GHCN-D) database (latest records 2020): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910, doi:10.1175/JTECH-D-11-00103.1.
+ 
+"During the last several decades, the Global Telecommunication System (GTS), operated under the auspices of the World Meteorological Organization (WMO), has allowed National Meteorological and Hydrological Services (NMHSs) to share a wide variety of meteorological data regionally and worldwide. However, there has been no formal mechanism or requirement to share daily data via the GTS and no central repository for daily climate reports from national surface networks. In practice, the transmission of daily climate summaries has been treated as optional even for the network of stations that report temperature, precipitation, surface pressure, etc., at fixed synoptic hours [i.e., every 3 or 6 h for stations in the Regional Basic Synoptic Network (RBSN)]. Similarly, stations in the WMO’s Regional Basic Climate Network (largely a subset of the RBSN) are only required to provide a monthly climate summary known as CLIMAT and likewise do not consistently transmit daily summaries within their synoptic messages (WMO 2003)."
+
+
+The source data are obtained via "contacts with representatives from National Meteorological and Hydrological Centers (NMHCs) around the world, through official bi-lateral agreements, and from a number a data archives" including the Intenational Collection.
+"The International Collection contains historical records for approximately 20,000 locations outside the United States (from over 100 different countries) and largely reflects the data collection efforts that led to the release of Global Daily Climatology Network dataset" 
+
+The quality the date is estimated with procedures suggested by Klein et al., 2002: Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface air temperature and precipitation series for the European Climate Assessment. Int. J. of Climatol., 22, 1441-1453. 
+
+2. the Global Summary Of the Day (GSOD) database (https://data.noaa.gov). 
 
 How the seasonal patterns of precipitation / evaporation / river runoff are changed since late 1990s?
 
@@ -208,6 +223,8 @@ How the reanalyses reproduce the observations at the nearest SYNOP stations?
 Arheimer, B. and Lindström, G.: Climate impact on floods: changes in high flows in Sweden in the past and the future (1911–2100), Hydrol. Earth Syst. Sci., 19, 771-784, doi:10.5194/hess-19-771-2015, 2015. 
 
 Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., Strandberg, G., Tyrlis, E., Wang,  S.,   Wilcke, R., 2020: On the contribution of internal climate variability to European future climate trends, Tellus A: Dynamic Meteorology and Oceanography, 72:1, 1-17, DOI: 10.1080/16000870.2020.1788901 
+
+Beck, H., Zimmermann, N., McVicar, T. et al. Present and future Köppen-Geiger climate classification maps at 1-km resolution. Sci Data 5, 180214 (2018). https://doi.org/10.1038/sdata.2018.214
 
 Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow Indices and Metadata Archive (GSIM) – Part 2: Quality control, time-series indices and homogeneity assessment, Earth Syst. Sci. Data, 10, 787–804, https://doi.org/10.5194/essd-10-787-2018, 2018. 
 
