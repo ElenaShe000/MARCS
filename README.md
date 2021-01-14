@@ -127,34 +127,38 @@ ES: " I would need a couple of weeks to explore the RArctic data, then it would 
 
 AK by 11.01.2021: "I am also not convinced that we should restrict ourselves to catchments smaller than 50000 km2. Yes, river gauges located downstream of large catchment areas will be affected by processes occurring over large areas which may complicate understanding of the processes. For example, there may be compensation between increased precipitation in one region and decreased precipitation in another region leading to no signal in the river discharge downstream. However it will still be interesting to relate river discharge data to certain types of circulation. Maybe even river gauges from the same catchment area but located in different parts of the catchment will show different signals, which is still interesting I think. To me more important criteria should be the length of the gauge data. It’s pity there is no data after 2014."
 
-Further, the gauges with the longest hydrological time series were selected in each 
-
 Further, the gauges oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Many studies reccoment also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Shevnina et. al., 2017; Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). 
 
-We selected 33 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series; (d) located in various climate zones; and (e) over the European domain. The hydrological sites mostly located in two climate zones C and D according to the classification given by Beck et al. (2018).
+I have selected 35 gauges located at the rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series of a good quality; (d) located in various climate (vegetation) zones; and (e) located within the European domain. The hydrological sites mostly located in two climate zones (C and D according to Beck et al., 2018). Figure at the attachement shows the location of the gauges colored according to the sources offered the metadata: the GRDC climate stations (red dots); the dataset collection by Gunmunsson et al., 2018 (blue dots) and the RArctic dataset (orange dots) were used used. In each dataset, the metadata includes the river name, station name, altitude, catchemnt area, date of start/end of series, the length and results of the quality control.
 
 The list of the stations:
-10 Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
+10  Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
-        Sukhona at Kalikino, 1881-1998, 116 year
+        Sukhona at Rabanga, 1877-1999, 106 year
         Pechora River at Yaksha, 1913-1998, 86 year
         Onega River at Kazakovo, 1929 - 1999 (?), 71 year
         Umba at Payalka, 1930 - 1992 (?)
         Varzuga at Varzuga, 1935 - 1992 (?)
         Vaga at Ust' Suma, 1956 - 1999 (?), 44 
-        Vuchegda at Malaya Kuzhba, 1930-1999 (?), 69
         Pinega at Kulogory, 1914-1999 (?), 86
+        Belomorkanal at Matkozh, 1956-1988, 33: connection to the While Sea
+        
+  + 3 Russia (Gudmunson et al., 2018):  Neva River at  Novosaratovka, 1945-2011, 67: connection to the Baltic Sea
+                                  Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56
+                                  Pasha at Poretchje, 1934-1988, 55
         
 2 Sweden (prischine): Abiskojakka at Abisko, 1918-2019, 102
                       Roran at Ytternholmen, 1924-2019, 96
                       
 3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119
                                    Tana River at Polmak, 1911-2014, 104
-                                   Glama at Skarnes, 1887-2014, 128
+                                   Glama River at Skarnes, 1887-2014, 128
                                    
-3 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103
-          (Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004,
-                            Nilakka River at Äyskoski, 1886-2004,
+2 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103
+                             Muroleenkoski River at (lake outlet), 1863-2016,                         
+                   
+          (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004,
+                              Nilakka River at Äyskoski, 1886-2004,
                             
 1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69
 
@@ -170,18 +174,21 @@ The list of the stations:
    (Gundmuson et al., 2018): Thames at kingston, 1883-2013, 131
    
 2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
-       (Gunmunson, 2018): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
+       (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
 
-1 Chech republic (prischine): Sazava at Zruc nad Sazvoy, 1942-2018, 77
+1 Chech republic (prischine): Sazava River at Zruc nad Sazvoy, 1942-2018, 77
 
-1 Romania (prischine): Szamos at Satu Mare, 1938-2008, 71
+1 Romania (prischine): Szamos River at Satu Mare, 1938-2008, 71
 
 1 The Nederlands (prischine): Rhine River at Lobith, 1901-2017, 117
 
-1 Slovakia (prischine): Hroh at Brehy, 1930-2017, 88
+1 Slovakia (prischine): Hroh River at Brehy, 1930-2017, 88
 
-1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman at Smalininkai, 1812-2009, 198
+1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman River at Smalininkai, 1812-2009, 198
 
+There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.  
+
+How about to include 3 gauges located in Greenland and Svalbard (black dots in the Figure attached)?  
                                
       
         
