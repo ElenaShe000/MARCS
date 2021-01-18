@@ -103,7 +103,7 @@ novelty
 the study is based both on observational data amd model simulations....
 
 # hydrological observations
-In our study we used ... 
+In our study we used the river discharges... 
 1) the collection of the data by Gudmunson et al., (2018). The authors analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
 
 Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
@@ -115,7 +115,7 @@ Gudmunson et al. 2018: "Until now, most relevant in situ observations have been 
 
 Further, the gauges oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Many studies reccoment also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Shevnina et. al., 2017; Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). 
 
-I have selected 35 gauges located at the European rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series of a good quality; (d) located in various climate (vegetation) zones.  Figure at the attachement shows the location of the gauges colored according to the sources offered the metadata: the GRDC climate stations (red dots); the dataset collection by Gunmunsson et al., 2018 (blue dots) and the RArctic dataset (orange dots) were used used. In each dataset, the metadata includes the river name, station name, altitude, catchemnt area, date of start/end of series, the length, overview on the quality control and national indentification. 
+I have selected 35 gauges located at the European rivers with (a) catchement area more than 1000 km2; (b) do not disturbed by water regulation; (c) with the longest observational time series of a good quality; (d) located in various climate (vegetation) zones.  Figure at the attachement shows the location of the gauges colored according to the sources offered the metadata: the GRDC climate stations (red dots); the dataset collection by Gunmunsson et al., 2018 (blue dots) and the RArctic dataset (orange dots) were used used. In each dataset, the metadata includes the river name, station name, altitude, catchemnt area, date of start/end of series, the length, overview on the quality control and national indentification. Fig. XX Hydrological network
 
 The hydrological sites mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 13 gauges located in Russia, 3 gauges in Norway, 2 gauges in Finalnd, Sweden, Estonia, Germany, France, GB, and 1 gauges in NL, Iceland, Belorus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.
 
@@ -207,12 +207,36 @@ by TV by 12.01.2021: "I thin atmospheric circulation is reasonably well presente
 
 AK by 11.01.2021: "The reanalysis before 1979 may be not as good as that after 1979 but it does not necessarily mean that these data is not useful. I’ve never studied how the quality of reanalyses drops before 1979, perhaps there are studies that are relevant for us? But I would expect that at least large-scale circulation should be reasonably well constrained in the Northern hemisphere also before 1979. Of course the amount of reanalysis data that would need to be downloaded can be large, which is another issue." 
 
-
 How the reanalyses reproduce the observations at the nearest SYNOP stations?
 
 
+AIM: ... to improve seasonal prediction of river runoff ...   ??? SYKE duties ...
+OBJECTIVES:
+1. ... to analyse observations ... in order to find a relationship (method, model) ... to explain ... OR to apply in prediction ....
+2. ... to verify a relationship (method, model) 
+3. ... to test in prediction practice ...   operationaly? SYKE data ...
+
+Hydrological variables:
+ a) the date of freeze-up and breack-up in rivers and lakes.... 
+ b) the river discharges ....  
+
 ## methods
-2.  “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
+ES: "I would suggest to start from the frequency and trend analyses while examine the time series of the river runoff in four seasons (aggregated from the daily/monthly values)."
+
+1. Trends in 
+a) yearly average, minimal, maximal river runoff;
+b) in yearly winter (DJF), spring (MAM), summer (JJA) and autumn (SON) river runoff  
+
+a). Gudmunson et al. 2018 ():
+
+b). 25 river basins located in Finland (Korhonen and Kuusamo, 2010); 13 unregulated basins + 12 regulated; longest series until 2004; yearly mean discharge, monthly and seasonal river discharges, annual maximum and minimum flows; no trends in yearly mean discharges, yes trends in seasonla series, in most sites (64%) the winter and/or spring discharges have increased. 
+
+c). 76 river basins located in the Russian Arctic Shevnina  (2011); longest series until 2002; yearly maximum river discharge; 30 % non-homogenius
+
+
+2. Trend in the proportion Evaporation/Precipitation and Runoff/Precipitation
+a) series of evaporation, precipitation and runoff
+b) “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
 
 
 ## References 
