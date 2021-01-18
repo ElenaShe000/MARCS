@@ -27,7 +27,7 @@ Water transport... due to phase changes (solid, liquid, vapour)         // lakes
 
 
 TN: "a systematic picture on how atmospheric large-scale circulation is related to moisture transport, distributions of moisture and clouds, and surface downward longwave radiation in wintertime in the current climate of the circumpolar Arctic. This is done by applying the self-organizing map (SOM) method (Kohonen 2001), which enables a comprehensive analysis of a large variety of atmospheric circulation regimes. 
-Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns
+Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns for region over Greenland
 Nygard at al., 2019: with SOM classify into 30 ... patterns ... 
 
 TN: "moisture transport and moisture convergence" == xy-axis movement or "horizontal moisture transport" and vertical mt or z-axis movement ???
