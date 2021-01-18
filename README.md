@@ -1,4 +1,4 @@
-##  Hydropower risks in rapidly warming Arctic: towards seasonal prediction of floods.
+##  Hydropower risks in rapidly warming Arctic: toward a seasonal prediction of floods.
 ## contribution from AFEC project: Jan,2021 to ...
 
 (e.shevnina, t.vihma, a.karpechko)
@@ -7,7 +7,7 @@
 
 What changes are observed in the Arctic?
 
-Observations evident environmental changes may linked to enhanced warming of the Arctic (also known as the Arctic Amplification): shrinkage of an ice cover in the Arctic Ocean, degradation of a permafrost in Siberia, melting of glaciers in Svalbard and Central Asia, shifting in synoptic atmospheric circulation in Europe. In turn, the synoptic atmospheric processes determine regional distribution of the precipitation, the evaporation, the river runoff and water resource of lakes. These changes in the atmospheric circulation leads to weather and hydrological extreme events latest often observed in many European countries (XXX; XXX). These extreme events also known as heat waves and droughts, heavy rainfall and floods,  avalanches, etc. They damage social infrastructure, kill people and result to economical losses. Therefore, the early prediction of these extremes is among the actual task for national hydrometorological service. This study contributed to improving the methods of the seasonal prediction of floods. 
+Observations evident environmental changes connected to enhanced warming of the Arctic (also known as the Arctic Amplification): shrinkage of an ice cover in the Arctic Ocean, degradation of a permafrost in Siberia, melting of glaciers in Svalbard and Central Asia, shifting in synoptic atmospheric circulation in Europe. In turn, the synoptic atmospheric processes determine regional distribution of the precipitation, the evaporation, the river runoff and water resource of lakes. These changes in the atmospheric circulation leads to weather and hydrological extreme events latest often observed in many European countries (XXX; XXX). These extreme events also known as heat waves and droughts, heavy rainfall and floods,  avalanches, etc. They damage social infrastructure, kill people and result to economical losses. Therefore, the early prediction of these extremes is among the actual task for national hydrometorological service. This study contributed to improving the methods of the seasonal prediction of floods. 
 
 How the AA is detected?
 
@@ -237,6 +237,8 @@ Rogdestvenskiy A.V. and Chebotarev A.I.: Statistical methods in hydrology, Gidro
 EU hydropower: Bergström,  S.,  Andréasson,  J.,  Veijalainen,  N.,  Vehviläinen,  B.,  Einarsson,  B.,  Jónsson,   S.,   Kurpniece,   L.,   Kriaučiūnienė   ,   J.,   Meilutytė-Barauskienė,   D.,   Beldring, S., Lawrence, D. & Roald, L. 2012. Modelling climate change impacts on the hydropower system. In: Thorsteinsson, T. & Björnsson, H. (Eds.). Climate Change  and  Energy  Systems:  Impacts,  Risks  and  Adaptation  in  the  Nordic  and  Baltic    Countries.    TemaNord    2011:502.    Nordic    Council    of    Ministers,    Copenhagen. pp. 113–146
 
 EU Lakes: Blenckner,   T.,   Adrian,   R.,   Arvola,   L.,   Järvinen,   M.,   Nõges,   P.,   Nõges,   T.,   Pettersson,  K.  &  Weyhenmeyer,  G.A.  2010.  The  Impact  of  Climate  Change  on  Lakes  in  Northern  Europe.  In:  George,  G.  (Ed.)  The  Impact  of  Climate  Change  on European Lakes. Springer, Dordrecht. pp. 339–358. 
+
+Jakobson, E. and Vihma, T. (2010), Atmospheric moisture budget in the Arctic based on the ERA‐40 reanalysis. Int. J. Climatol., 30: 2175-2194. https://doi.org/10.1002/joc.2039
 
 Mylne K.R.: Decision-making from probability forecasts based on forecast value. Meteorological Applications 9: 307–315, 2002.
 
