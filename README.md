@@ -16,6 +16,8 @@ As the unhomogenity in the observed series of meteorological and hydrological se
 
 How the data from SYNOP sites are used in the analyses of the synoptic scale processes?
 
+# How reanalyses are used in the analyese of the synoptic scale processes?
+
 Nygard et al., 2019: https://doi.org/10.1175/JCLI-D-19-0242.1 : "reduced sea ice concentration in winter has been found to correlate in many locations with increased surface " EVAPORATION ..." (Screen and Simmonds 2010; Jun et al. 2016). "This has strengthened the cloud–temperature–moisture relationship in the lower troposphere during the last decades (Morrison et al. 2019). What is the cloud–temperature–moisture relationship? 
 
 Moisture (== atmospheric water vapor) transport... due synoptic scale atmospheric circulation ?    WIKI: atmospheric water vapor, or "moisture", is crucial in the prediction of all weather elements, especially clouds, fog, temperature, humidity thermal comfort indices and precipitation": https://en.wikipedia.org/wiki/Moisture_advection  
@@ -25,18 +27,20 @@ Water transport... due to phase changes (solid, liquid, vapour)         // lakes
 
 
 TN: "a systematic picture on how atmospheric large-scale circulation is related to moisture transport, distributions of moisture and clouds, and surface downward longwave radiation in wintertime in the current climate of the circumpolar Arctic. This is done by applying the self-organizing map (SOM) method (Kohonen 2001), which enables a comprehensive analysis of a large variety of atmospheric circulation regimes. 
+Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns
+Nygard at al., 2019: with SOM classify into 30 ... patterns ... 
 
 TN: "moisture transport and moisture convergence" == xy-axis movement or "horizontal moisture transport" and vertical mt or z-axis movement ???
 
 How the typical atmospheric circulation regime is look like? 
 
-self organazed maps... 
+self organazed maps... : statistical methods, however one should provide the number of types.
 
 circulation  groups  by  Hess-Brezowsky  ???
 Is it the same as in the classificaton of Vangengeim/Girs he  classification elaborated by Vangengeim and Girs mentioned here: http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ???
 
 
-What is the climate reanalyses?
+# What is climate reanalyse?
 
 Nygard et al., 2019: "ERA-Interim (Dee et al. 2011) of the European Centre for Medium-Range Weather Forecasts, which assimilates the existing observations into a numerical weather prediction model thereby offering a gridded and coherent representation of circulation patterns, moisture, and clouds.
 
@@ -281,9 +285,15 @@ Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., S
 
 Beck, H., Zimmermann, N., McVicar, T. et al. Present and future Köppen-Geiger climate classification maps at 1-km resolution. Sci Data 5, 180214 (2018). https://doi.org/10.1038/sdata.2018.214
 
+Boisvert, L. N., D. L. Wu, and C.-L. Shie, 2015: Increasing evaporation amounts seen in the Arctic between 2003 and 2013 from AIRS data. J. Geophys. Res. Atmos., 120, 6865–6881, https://doi.org/10.1002/2015JD023258.
+
 Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow Indices and Metadata Archive (GSIM) – Part 2: Quality control, time-series indices and homogeneity assessment, Earth Syst. Sci. Data, 10, 787–804, https://doi.org/10.5194/essd-10-787-2018, 2018. 
 
 freshwater inflow to the Arctic Ocean: Dyurgerov, M., & Carter, C. (2004). Observational Evidence of Increases in Freshwater Inflow to the Arctic Ocean. Arctic, Antarctic, and Alpine Research, 36(1), 117-122. Retrieved January 12, 2021, from http://www.jstor.org/stable/1552435
+
+Cassano, J. J., P. Uotila, and A. Lynch, 2006: Changes in synoptic weather patterns in the polar regions in the twentieth and twenty-first centuries, part 1: Arctic. Int. J. Climatol., 26, 1027–1049, https://doi.org/10.1002/joc.1306.
+
+Dee, D. P., and Coauthors, 2011: The ERA-Interim reanalysis: Configuration and performance of the data assimilation system. Quart. J. Roy. Meteor. Soc., 137, 553–597, https://doi.org/10.1002/qj.828.
 
 hydrological datasets:
 grided... Ghiggi, G., Humphrey, V., Seneviratne, S. I., and Gudmundsson, L.: GRUN: an observation-based global gridded runoff dataset from 1902 to 2014, Earth Syst. Sci. Data, 11, 1655–1674, https://doi.org/10.5194/essd-11-1655-2019, 2019. 
@@ -310,6 +320,8 @@ Hodgkins,  G.A.,  Whitfield,  P.H.,  Burn,  D.H.,  Hannaford,  J.,  Renard,  B.,
 Korhonen, J. & Kuusisto, E. 2010. Long-term changes in the discharge regime in Finland. Hydrology Research41(3-4), 253–268.
 Korhonen, 2019: 
 
+Kohonen, T., 2001: Self-Organizing Maps. Springer-Verlag, 501 pp.
+
 Monin A. S.1986. An Introduction to the Theory of Climate. Reidel, Dordrecht.
 
 P. Milly, K.A. Dunne, A.V. Vecchia. Global pattern of trends in streamflow and water availability in a changing climate, Nature,Vol. 438, 347–350, 2005.
@@ -324,6 +336,8 @@ Veijalainen, N., Korhonen, J., Vehviläinen, B., and Koivusalo, H.: Modelling an
 
 T. Vihma, J. Screen, M. Tjernström, B. Newton, X. Zhang, V. Popova, C. Deser, M. Holland, T. Prowse. The atmospheric role in the Arctic water cycle: A review on processes, past and future changes, and their impacts, Journal Geophysical Research Biogeoscience,
 Vol. 121, 586–620, 2016.
+
+Naakka, T., T. Nygård, T. Vihma, J. Sedlar, and R. G. Graversen, 2019: Atmospheric moisture transport between mid-latitudes and the Arctic: Regional, seasonal and vertical distributions. Int. J. Climatol., 39, 2862–2879, https://doi.org/10.1002/JOC.5988
 
 Prowse, T., Bring, A., Mård, J., Carmack, E., Holland, M., Instanes, A., Vihma, T. and Wrona F. J. :  Arctic Freshwater Synthesis: Summary of key emerging issues, J. Geophys. Res. Biogeosci., 120, 1887–1893, doi: 10.1002/2015JG003128, 2015.
 
@@ -350,6 +364,8 @@ Koutrouvelis, I. A. and Canavos, G. C.: Estimation in the Pearson type 3 distrib
 Tebaldi, C., and Knutti, R.: The use of the multi-model ensemble in probabilistic climate projections, Phil. Trans. R. Soc. A, 365, 2053–2057, 2007.
 
 Kivinen S, Rasmus S, Jylhä K, Laapas M. Long-Term Climate Trends and Extreme Events in Northern Fennoscandia (1914–2013). Climate. 2017; 5(1):16. doi: 10.3390/cli5010016 
+
+Sheridan, S. and C. Lee. “The self-organizing map in synoptic climatological research.” Progress in Physical Geography 35 (2011): 109 - 119.
 
 Shevnina E., 2014: Changes of multi-year characteristic of the maximal spring flood runoff in the Arctic, Construction of unique buildings and structures, 7(22), in Russian
 
