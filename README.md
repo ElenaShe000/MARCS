@@ -16,43 +16,53 @@ As the unhomogenity in the observed series of meteorological and hydrological se
 
 How the data from SYNOP sites are used in the analyses of the synoptic scale processes?
 
-# How reanalyses are used in the analyese of the synoptic scale processes?
-
-Nygard et al., 2019: https://doi.org/10.1175/JCLI-D-19-0242.1 : "reduced sea ice concentration in winter has been found to correlate in many locations with increased surface " EVAPORATION ..." (Screen and Simmonds 2010; Jun et al. 2016). "This has strengthened the cloud–temperature–moisture relationship in the lower troposphere during the last decades (Morrison et al. 2019). What is the cloud–temperature–moisture relationship? 
-
-Moisture (== atmospheric water vapor) transport... due synoptic scale atmospheric circulation ?    WIKI: atmospheric water vapor, or "moisture", is crucial in the prediction of all weather elements, especially clouds, fog, temperature, humidity thermal comfort indices and precipitation": https://en.wikipedia.org/wiki/Moisture_advection  
-
-Water transport... due to phase changes (solid, liquid, vapour)         // lakes //
-
-
-
-TN: "a systematic picture on how atmospheric large-scale circulation is related to moisture transport, distributions of moisture and clouds, and surface downward longwave radiation in wintertime in the current climate of the circumpolar Arctic. This is done by applying the self-organizing map (SOM) method (Kohonen 2001), which enables a comprehensive analysis of a large variety of atmospheric circulation regimes. 
-Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns for region over Greenland
-Nygard at al., 2019: with SOM classify into 30 ... patterns ... 
-
-TN: "moisture transport and moisture convergence" == xy-axis movement or "horizontal moisture transport" and vertical mt or z-axis movement ???
-
-How the typical atmospheric circulation regime is look like? 
-
-self organazed maps... : statistical methods, however one should provide the number of types.
-
-circulation  groups  by  Hess-Brezowsky  ???
-Is it the same as in the classificaton of Vangengeim/Girs he  classification elaborated by Vangengeim and Girs mentioned here: http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ???
 
 
 # What is climate reanalyse?
 
 Nygard et al., 2019: "ERA-Interim (Dee et al. 2011) of the European Centre for Medium-Range Weather Forecasts, which assimilates the existing observations into a numerical weather prediction model thereby offering a gridded and coherent representation of circulation patterns, moisture, and clouds.
 
-TN: " Whereas atmospheric humidity is assimilated in ERA-Interim, clouds are entirely modeled entities that are only indirectly constrained by assimilation of observations. The cloud parameterization scheme of ERA-Interim is based on the approach of Tiedtke (1993). ERA-Interim has two prognostic cloud variables: cloud fraction and cloud condensate. Partitioning of cloud condensate to liquid water and frozen water is diagnostically determined as a function of temperature. Cloud water is in the liquid phase when temperature is 0°C or higher. The fraction of frozen water monotonically increases (and the fraction of liquid water decreases) with decreasing temperature toward −23°C, and only frozen water can occur in the reanalysis in conditions with temperature below −23°C. It is, however, noteworthy that in observations from Alaska, northern Canada, and the western Arctic Ocean, liquid water has been found in clouds at temperatures as low as −40°C (Shupe 2011)."
+Q1: Does it so, that a reanalyses is a combination of the model forecast and the observations coming from various sources: the remote sensing, the SYNOP stations, ships and aircrafts? Is it some kind of initial conditions to run the  model fo the next prognostic step?
+
+Q2: How ERA-Interim reproduce the observations collected by the SYNOP station for the near surface temperature, atmospheric pressure and humidity? 
+
+TN: "Whereas atmospheric humidity is assimilated in ERA-Interim, clouds are entirely modeled entities that are only indirectly constrained by assimilation of observations. The cloud parameterization scheme of ERA-Interim is based on the approach of Tiedtke (1993). ERA-Interim has two prognostic cloud variables: cloud fraction and cloud condensate. ..."
+
+Q3: Do I understand correctly, that the prognostic variables are resulted from applying a parameterisation scheme: a kind of sub-model to represent a particular phenomena (cloud, lake, ice, snow)?
+
 
 TN: "the accuracy of ERA-Interim can be considered to be sufficient when it comes to an investigation of relationships between atmospheric large-scale circulation and moisture/cloud distributions."
 
+Q4: What is general procedure to estimate the accuracy for a variable given in ERA-Interrim?
+
+Q5: May I say, that the reanalyses are apply to detect the synoptic scale atmospheric processes?
+
+TN: "a systematic picture on how atmospheric large-scale circulation is related to moisture transport, distributions of moisture and clouds, and surface downward longwave radiation in wintertime in the current climate of the circumpolar Arctic. This is done by applying the self-organizing map (SOM) method (Kohonen 2001), which enables a comprehensive analysis of a large variety of atmospheric circulation regimes. 
+
+Q6:  Why the number of patterms on the SOM analyses was set 30? 
+
+Q7: What do you think, are there any prinsiple differences the cirulation regimes after the SOM analyses from the circulation  groups  by  Hess-Brezowsky (30 patterns)  or the classes given by Vangengeim and Girs (26 patterns): http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ???
+
+Q8: Have you the archive with the classification patterns after the SOM for the period of 1979-2019?
+
+Q9: Do you think, that the ERA-Interim well reprented the near surface meteorological variables for the Eurasian continent?
+
+Q10: How about the representation ones in the polar regions such as the Arctic?
+
 TN: "The corner circulation regimes 26 and 5 as well as regime 15 are the most common ones. The nodes 5 and 15 are characterized by anomalously low pressure in northern Eurasia, whereas regime 26 is characterized by anomalously high pressure in most of the Arctic. Regime 30, with anomalously high pressure in northern Europe and western parts of Russia, is clearly the most persistent regime with its mean persistence of 3.8 days. In all of the regimes, transitions from one regime to another most commonly take place between the neighboring or diagonally closest regimes in the array."
 
+Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns for region over Greenland
+Nygard at al., 2019: with SOM classify into 30 ... patterns ... 
+
+Our results reveal a high dependence of moisture and cloud variables on atmospheric pressure fields, which appears important in the climate change perspective. 
+
+TN: "moisture transport and moisture convergence" == xy-axis movement or "horizontal moisture transport" and vertical mt or z-axis movement ???
+
+TN: "Our results reveal a high dependence of moisture and cloud variables on atmospheric pressure fields, which appears important in the climate change perspective. "
+
+SOM: self organazed maps... : statistical methods, however one should provide the number of types.
+
 TN: "Effects of large-scale circulation on spatiotemporal distributions of water vapor, cloud water, and longwave radiation in the Arctic are to a large extent occurring through the impact of horizontal moisture transport."
-
-
 
 Source of the modelled meteorological variables: 2m air temperature, wind speed, net precipitation, 
 and modelled evaporation calculated with the energy budget method (?)
@@ -237,8 +247,8 @@ reference SYNOP stations...
 # meteorological reanalyses 
 
 What are the reanalyses:
-a) ERA5 or ERA5 Land
-b) the Copernicus Arctic Regional Reanalysis (CARRA's official name, just to remind that they discourage to use the acronym CARRA).
+a) ERA5 
+
 
 TV by 7.01.2021: "Tuomas wrote that he has already downloaded ERA5 data on Z200, Z500, precipitation and evaporation. I guess from 1979 to almost present."
 
