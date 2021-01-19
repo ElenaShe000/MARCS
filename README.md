@@ -14,9 +14,6 @@ How the AA is detected?
 
 As the unhomogenity in the observed series of meteorological and hydrological series dates to late 1990s, and the legths of the observated  series seems to be too short to distigush the reason of the unhomogenity: would it attribute to natural variability or forced by human activity (Koenigk et al., 2020; XX). 
 
-How the data from SYNOP sites are used in the analyses of the synoptic scale processes?
-
-
 
 # What is climate reanalyse?
 
@@ -30,45 +27,34 @@ TN: "Whereas atmospheric humidity is assimilated in ERA-Interim, clouds are enti
 
 Q3: Do I understand correctly, that the prognostic variables are resulted from applying a parameterisation scheme: a kind of sub-model to represent a particular phenomena (cloud, lake, ice, snow)?
 
-
 TN: "the accuracy of ERA-Interim can be considered to be sufficient when it comes to an investigation of relationships between atmospheric large-scale circulation and moisture/cloud distributions."
 
-Q4: What is general procedure to estimate the accuracy for a variable given in ERA-Interrim?
+Q4: What is general procedure to estimate the accuracy for a variable given in ERA-Interim?
 
-Q5: May I say, that the reanalyses are apply to detect the synoptic scale atmospheric processes?
+Q5: How is the accuracy of the atmospheric presure in the ERA affect to to detection of the atmospheric large scale circulation for in the regions with various orography?
 
 TN: "a systematic picture on how atmospheric large-scale circulation is related to moisture transport, distributions of moisture and clouds, and surface downward longwave radiation in wintertime in the current climate of the circumpolar Arctic. This is done by applying the self-organizing map (SOM) method (Kohonen 2001), which enables a comprehensive analysis of a large variety of atmospheric circulation regimes. 
 
 Q6:  Why the number of patterms on the SOM analyses was set 30? 
 
-Q7: What do you think, are there any prinsiple differences the cirulation regimes after the SOM analyses from the circulation  groups  by  Hess-Brezowsky (30 patterns)  or the classes given by Vangengeim and Girs (26 patterns): http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ???
+Q7: What do you think, are there any prinsiple differences the cirulation regimes (patterns) after the SOM analyses from those groups  suggested by Hess-Brezowsky (30 patterns)  or the classes given according to Vangengeim and Girs (26 patterns) mentioned here: http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ???
 
 Q8: Have you the archive with the classification patterns after the SOM for the period of 1979-2019?
 
-Q9: Do you think, that the ERA-Interim well reprented the near surface meteorological variables for the Eurasian continent?
+Q9: How time demanding may be the task to calculate the 30y means and standard deviations for the net precipitation under 4 typical synoptic patterns (5, 15, 26 and 30) at one site with given location?
 
-Q10: How about the representation ones in the polar regions such as the Arctic?
+Q9: Do you think, that the ERA-Interim well reprented net precipitation for the Eurasian continent?
 
-TN: "The corner circulation regimes 26 and 5 as well as regime 15 are the most common ones. The nodes 5 and 15 are characterized by anomalously low pressure in northern Eurasia, whereas regime 26 is characterized by anomalously high pressure in most of the Arctic. Regime 30, with anomalously high pressure in northern Europe and western parts of Russia, is clearly the most persistent regime with its mean persistence of 3.8 days. In all of the regimes, transitions from one regime to another most commonly take place between the neighboring or diagonally closest regimes in the array."
+Q10: How about the ERA-Interim representation of the net precipitation in the Arctic?
 
 Sheridan and  Lee (2011): with SOM classify into 35 typical synoptic patterns for region over Greenland
 Nygard at al., 2019: with SOM classify into 30 ... patterns ... 
-
-Our results reveal a high dependence of moisture and cloud variables on atmospheric pressure fields, which appears important in the climate change perspective. 
 
 TN: "moisture transport and moisture convergence" == xy-axis movement or "horizontal moisture transport" and vertical mt or z-axis movement ???
 
 TN: "Our results reveal a high dependence of moisture and cloud variables on atmospheric pressure fields, which appears important in the climate change perspective. "
 
 SOM: self organazed maps... : statistical methods, however one should provide the number of types.
-
-TN: "Effects of large-scale circulation on spatiotemporal distributions of water vapor, cloud water, and longwave radiation in the Arctic are to a large extent occurring through the impact of horizontal moisture transport."
-
-Source of the modelled meteorological variables: 2m air temperature, wind speed, net precipitation, 
-and modelled evaporation calculated with the energy budget method (?)
-
-Should we compleatly trast the reanalyses???? how the reanalyses represent the observations???
-
 
 How AA affects to climate and weather in Europe?
 
@@ -83,7 +69,7 @@ Korhonene, 2019: "As  Finland  belongs  to  a  humid  zone  in  climate  classif
 Beck et al., 2018: maps of climate classification are estimated from 
 
 
-The SYNOP data for a number of the hydrological and meteorological parameters including the precipitation, air temperature, wind speed and directions,  ... snow depth, wind speed, relaive humidity, .... ) daily values at sites: 
+The SYNOP data for a number of the hydrological and meteorological parameters including the precipitation, air temperature, wind speed and directions,  ... atmospheric pressure,  relaive humidity, .... ) daily values at sites: 
 
 1. the Global Historical Climatology Network-Daily (GHCN-D) database (latest records 2020): Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric and Oceanic Technology, 29, 897-910, doi:10.1175/JTECH-D-11-00103.1.
  
@@ -247,7 +233,7 @@ reference SYNOP stations...
 # meteorological reanalyses 
 
 What are the reanalyses:
-a) ERA5 
+a) ERA-Interim or ERA5
 
 
 TV by 7.01.2021: "Tuomas wrote that he has already downloaded ERA5 data on Z200, Z500, precipitation and evaporation. I guess from 1979 to almost present."
@@ -269,10 +255,12 @@ Hydrological variables:
  a) the date of freeze-up and breack-up in rivers and lakes.... 
  b) the river discharges ....  
 
-## methods
+## 2 Methods
+
 ES: "I would suggest to start from the frequency and trend analyses while examine the time series of the river runoff in four seasons (aggregated from the daily/monthly values)."
 
-1. Trends in 
+# Trends in the meteorological and hydrological time series
+
 a) yearly average, minimal, maximal river runoff;
 b) in yearly winter (DJF), spring (MAM), summer (JJA) and autumn (SON) river runoff  
 
@@ -286,6 +274,14 @@ c). 76 river basins located in the Russian Arctic Shevnina  (2011); longest seri
 2. Trend in the proportion Evaporation/Precipitation and Runoff/Precipitation
 a) series of evaporation, precipitation and runoff
 b) “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
+
+
+# the large scale synoptic circulation classification
+
+
+# the probabilistic hydrological model  
+
+We calibrated the hydrological model with the meteorological data extracted from the ERA5 or ERA-Interim reanalyses. We estimated the yearly and monthly mean and standard deviation for the following meteorological variables: the atmospheric presure (at level...?), 2m air temperature, wind speed, relative humidity, net precipitation, evaporation. The meteorological parameters were extracted at the model node nearest to the centroid of the watershed.  
 
 
 ## References 
