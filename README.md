@@ -349,6 +349,8 @@ Vol. 121, 586–620, 2016.
 
 Naakka, T., T. Nygård, T. Vihma, J. Sedlar, and R. G. Graversen, 2019: Atmospheric moisture transport between mid-latitudes and the Arctic: Regional, seasonal and vertical distributions. Int. J. Climatol., 39, 2862–2879, https://doi.org/10.1002/JOC.5988
 
+Nygård et al.,  2019: https://journals.ametsoc.org/view/journals/clim/32/24/jcli-d-19-0242.1.xml?tab_body=fulltext-display
+
 Prowse, T., Bring, A., Mård, J., Carmack, E., Holland, M., Instanes, A., Vihma, T. and Wrona F. J. :  Arctic Freshwater Synthesis: Summary of key emerging issues, J. Geophys. Res. Biogeosci., 120, 1887–1893, doi: 10.1002/2015JG003128, 2015.
 
 Roshydromet: Second Assessment Report on Climate Change and its Consequences in Russian Federation. General Summary, 58 pp., Roshydromet Federal Service for Hydrometeorol. and Environ. Monit., Moscow, Russia, 2014.
