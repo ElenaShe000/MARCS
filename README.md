@@ -141,21 +141,25 @@ Role of spatial resolution: We used two climate models of different spatial reso
 What and why needed to focus on the probabilistic approach?
 
 
-
-
 The study aims 
+ 
  ... toward seasonal prediction of freeze-up/break-up dates on lakes, rivers and inland seas (service: water transport, hydropower production; ++ for the surface parameterization in NWPs). 
  
  ... toward long term prediction of extreme floods and droughts (service: hydropower, roads insfrustructure, agriculture, 
  
  ... toward seasonal prediction of river runoff on a catchment scale
+ 
+ 
 objectives
 
 novelty
 
 
 ## data by 15.01.2021
-the study is based both on observational data amd model simulations....
+
+hydrological and meteorological observations ....
+model simulations  ....
+
 
 # hydrological observations
 In our study we used the river discharges... 
@@ -180,8 +184,9 @@ The hydrological sites mostly located in two climate zones (C and D according to
         Sukhona at Rabanga, 1877-1999, 106 year
         Pechora River at Yaksha, 1913-1998, 86 year
         Onega River at Kazakovo, 1929 - 1999 (?), 71 year
-        Umba at Payalka, 1930 - 1992 (?)
-        Varzuga at Varzuga, 1935 - 1992 (?)
+        Umba at Payalka, 1930 - 1992  (daily discharges ++ 1979-1988)
+        Varzuga at Varzuga, 1935 - 1992  (daily discharges ++ 1979-2011)
+                       Ponoy at Kanevka, (daily dicharges ++ 1954-2004) 
         Vaga at Ust' Suma, 1956 - 1999 (?), 44 
         Pinega at Kulogory, 1914-1999 (?), 86
         Belomorkanal at Matkozh, 1956-1988, 33: connection to the While Sea
@@ -193,14 +198,15 @@ The hydrological sites mostly located in two climate zones (C and D according to
 2 Sweden (prischine): Abiskojakka at Abisko, 1918-2019, 102
                       Roran at Ytternholmen, 1924-2019, 96
                       
-3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119
-                                   Tana River at Polmak, 1911-2014, 104
-                                   Glama River at Skarnes, 1887-2014, 128
+3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119  (daily/monthly discharges ++ 1896-2008)
+                                   Tana River at Polmak, 1911-2014, 104 (daily/monthly disch ++ 1911-2009)
+                                   Glama River at Skarnes, 1887-2014, 128 (daily/monthy discharges in GRDC ++ 1887-2008)
                                    
-2 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103
-                             Muroleenkoski River at (lake outlet), 1863-2016,                         
+2 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
+                 Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 (daily discharges ++ 1863-2013)  
+                     (GRDC): Kymijoki at Anjala, 1938-2013,  + 2001-2020 in SYKE open monthly data...
                    
-          (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004,
+          (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004, + 2001-2020 in SYKE open monthly data
                               Nilakka River at Äyskoski, 1886-2004,
                             
 1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69
@@ -241,6 +247,19 @@ where Q is a yearly average water discharge, m3s-1; T is a number of seconds in 
 
 What are the floods / drougths
 Table 1.
+
+TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
+
+1. the monthly hydrological (river water discharges, lake lavels, precipitation, snow water equvivalent, ground water levels, water temperature) statistic (mean and anomaly from 1980-2010) from 2001 to 2020 are given here: http://wwwi3.ymparisto.fi/i3/paasivu/eng/etusivu/etusivu.htm
+
+RIVER DISCHARGES example: http://wwwi3.ymparisto.fi/i3/vuositiedote/ENG/2019/virtaama/virtaama.htm
+
+
+
+
+
+
+ 
 
 
 # meteorological observations
