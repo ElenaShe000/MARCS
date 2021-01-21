@@ -144,9 +144,11 @@ What and why needed to focus on the probabilistic approach?
 
 
 The study aims 
- ... to  
- ... to 
- ... to 
+ ... toward seasonal prediction of freeze-up/break-up dates on lakes, rivers and inland seas (service: water transport, hydropower production; ++ for the surface parameterization in NWPs). 
+ 
+ ... toward long term prediction of extreme floods and droughts (service: hydropower, roads insfrustructure, agriculture, 
+ 
+ ... toward seasonal prediction of river runoff on a catchment scale
 objectives
 
 novelty
