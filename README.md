@@ -17,6 +17,24 @@ As the unhomogenity in the observed series of meteorological and hydrological se
 
 # What is climate reanalyse?
 
+ES: 'I would interesting to ask some questions about the reanalyses, which I have considered as possible source of the meteorological data for numerical experiments with a hydrological model. I have used the reanalyses only a couple of times in my practice, therefore your expertise may be useful for me. In hydrological practice, the observations collected on the meteorological/hydrological network are used in the numerical experiments with models. The meteorological parameters are atmospheric pressure, air temperature, precipitation, wind speed and humidity measured at the SYNOP sites. The reanalyses includes these observations at the sites after interpolations into grid nodes. In fact, the reanalyses is a combination of a weather model forecast and observations coming from various sources: remote sensing, SYNOP stations, ships and aircrafts. There are several reanalyses: ERA5, ERA-Interim, CARRA, NOAA.... etc. There are more meteorological (and not only) parameters in the reanalyses, and the evaporation is among others
+
+My questions are:
+Q1: What reanalyses is going to be used in study for the AFEC project and why?   
+
+Q2: What is general procedure to estimate the accuracy for a variable given in this reanalyses?
+
+Q3: How is the accuracy of the estimations is affected by local features, i.e. relief, climate zone, orography?
+
+Q4: How this reanalyses reproduce the observations collected by the SYNOP stations for the air temperature, atmospheric pressure, wind speed and humidity?
+ 
+
+Q5: Do you think, that this reanalyses well represented precipitation (or net precipitation) for the Eurasian continent, and in the Arctic?
+
+Q6: Should I trust the meteorological data in reanalyses?'
+
+
+
 Nygard et al., 2019: "ERA-Interim (Dee et al. 2011) of the European Centre for Medium-Range Weather Forecasts, which assimilates the existing observations into a numerical weather prediction model thereby offering a gridded and coherent representation of circulation patterns, moisture, and clouds.
 
 Q1: Does it so, that a reanalyses is a combination of the model forecast and the observations coming from various sources: the remote sensing, the SYNOP stations, ships and aircrafts? Is it some kind of initial conditions to run the  model fo the next prognostic step?
@@ -258,6 +276,25 @@ Hydrological variables:
 ## 2 Methods
 
 ES: "I would suggest to start from the frequency and trend analyses while examine the time series of the river runoff in four seasons (aggregated from the daily/monthly values)."
+
+ES,  Task 1: toward a seasonal prediction of  freeze-up/break-up dates on lakes, rivers and inland sea 
+Nygard et al., 2019. 
+
+Q7:How is the accuracy of the atmospheric pressure in the ERA-Interim affect to to detection of the atmospheric large scale circulation for in the regions with various orography?
+
+Q8: Why the number of patterns on the SOM analyses was set 30?
+
+Q9: What do you think, are there any principle differences in the circulation regimes (patterns) given after the SOM analyses from those groups suggested by Hess-Brezowsky (30 patterns) or the classes given according to Vangengeim and Girs (26 patterns) mentioned here: http://www.borenv.net/BER/archive/pdfs/ber7/ber7-273.pdf ?
+
+Q10: Have you the archive with the classification patterns after the SOM for the period of 1979-2019?
+
+Q11: How time demanding may be the task to calculate the 30y means and standard deviations for the net precipitation under 4 typical synoptic patterns (5, 15, 26 and 30) at one site with given location?
+
+Tuomas, unfortunally it was not possibl to access your paper about the atmospheric moister transport:
+https://rmets.onlinelibrary.wiley.com/doi/epdf/10.1002/joc.5988
+beacuse it is not under the open-access. Therefore, would it possible to share with me this paper?'
+
+
 
 # Trends in the meteorological and hydrological time series
 
