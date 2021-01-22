@@ -163,7 +163,7 @@ model simulations  ....
 
 # hydrological observations
 In our study we used the river discharges... 
-1) the collection of the data by Gudmunson et al., (2018). The authors analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
+1) the Global Streamflow Indices and Metadata Archive (GSIM) given by Gudmunson et al., (2018). The authors analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
 
 Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
 
@@ -180,47 +180,48 @@ The hydrological sites mostly located in two climate zones (C and D according to
 
 
 10  Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
-        Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
-        Sukhona at Rabanga, 1877-1999, 106 year
+        Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year, ++ monthly, seasonaly and yearly, GSIM
+        Sukhona at Rabanga, 1877-1999, 106 year, ++ monthly, seasonaly and yearly, GSIM 
         Pechora River at Yaksha, 1913-1998, 86 year
         Onega River at Kazakovo, 1929 - 1999 (?), 71 year
-        Umba at Payalka, 1930 - 1992  (daily discharges ++ 1979-1988)
-        Varzuga at Varzuga, 1935 - 1992  (daily discharges ++ 1979-2011)
-                       Ponoy at Kanevka, (daily dicharges ++ 1954-2004) 
+        Umba at Payalka, 1930 - 1992  (daily discharges ++ 1979-1988, GRDC)
+        Varzuga at Varzuga, 1935 - 1992  (daily discharges ++ 1979-2011, GRDC) + monthly, seasonaly and yearly, GSIM
+                       Ponoy at Kanevka, (daily dicharges ++ 1954-2004, GRDC) 
         Vaga at Ust' Suma, 1956 - 1999 (?), 44 
-        Pinega at Kulogory, 1914-1999 (?), 86
+        Pinega at Kulogory, 1914-1999 (?), 86   ++ monthly, seasonaly and yearly, GSIM
         Belomorkanal at Matkozh, 1956-1988, 33: connection to the While Sea
         
-  + 3 Russia (Gudmunson et al., 2018):  Neva River at  Novosaratovka, 1945-2011, 67: connection to the Baltic Sea
-                                  Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56
-                                  Pasha at Poretchje, 1934-1988, 55
+  + 3 Russia (Gudmunson et al., 2018):  Neva River at  Novosaratovka, 1945-2011, 67: connection to the Baltic Sea + monthly, seasonaly and yearly, GSIM
+                                  Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56: +indexes monthly
+                                  Pasha at Poretchje, 1934-1988, 55 : + + monthly, seasonaly and yearly, GSIM
         
 2 Sweden (prischine): Abiskojakka at Abisko, 1918-2019, 102
                       Roran at Ytternholmen, 1924-2019, 96
                       
-3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119  (daily/monthly discharges ++ 1896-2008)
-                                   Tana River at Polmak, 1911-2014, 104 (daily/monthly disch ++ 1911-2009)
+3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119  (daily/monthly discharges ++ 1896-2008, GRDC) 
+                                   Tana River at Polmak, 1911-2014, 104 (daily/monthly disch ++ 1911-2009, GRDC), ++ monthly, seasonaly and yearly, GSIM
                                    Glama River at Skarnes, 1887-2014, 128 (daily/monthy discharges in GRDC ++ 1887-2008)
                                    
 2 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
                  Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 (daily discharges ++ 1863-2013)  
                      (GRDC): Kymijoki at Anjala, 1938-2013,  + 2001-2020 in SYKE open monthly data...
+                     ++ kalajoki.mo
                    
           (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004, + 2001-2020 in SYKE open monthly data
                               Nilakka River at Äyskoski, 1886-2004,
                             
-1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69
+1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69; ++ monthly, seasonaly and yearly, GSIM
 
-2 Estonia (prischine): Narva Jogi River at Vasknarva, 1903-2014, 112
+2 Estonia (prischine): Narva Jogi River at Vasknarva, 1903-2014, 112; 
                        Ema Jogi at Tartu, 1922-2017, 96
                        
 1 Belorus (Gudmunson et al., 2018): Ptich River at Daraganovo, 1919-1995, 77
 
-2 Germany (Gudmunson et al., 2018): Elbe River at Dresden, 1806-2013, 208
-                                   Danube at Achleien, 1990-2013, 114
+2 Germany (Gudmunson et al., 2018): Elbe River at Dresden, 1806-2013, 208  ++ monthly, seasonaly and yearly, GSIM
+                                   Danube at Achleien, 1990-2013, 114 ++ monthly, seasonaly and yearly, GSIM
                                   
-2 GR (prischine): Ribble River at Samlesbury, 1960-2018, 59
-   (Gundmuson et al., 2018): Thames at kingston, 1883-2013, 131
+2 GR (prischine): Ribble River at Samlesbury, 1960-2018, 59 ++ monthly, seasonaly and yearly, GSIM
+   (Gundmuson et al., 2018): Thames at kingston, 1883-2013, 131 ++ monthly, seasonaly and yearly, GSIM
    
 2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
        (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
@@ -233,7 +234,7 @@ The hydrological sites mostly located in two climate zones (C and D according to
 
 1 Slovakia (prischine): Hroh River at Brehy, 1930-2017, 88
 
-1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman River at Smalininkai, 1812-2009, 198
+1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman River at Smalininkai, 1812-2009, 198 ++ monthly, seasonaly and yearly, GSIM
 
 There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.  
 
