@@ -66,9 +66,10 @@ model simulations  ....
 
 # hydrological observations
 
-We selected the hydrological sites oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Many studies reccoment also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Shevnina et. al., 2017; Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). 
+???We selected the hydrological sites oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Some studies reccomend also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). ???
 
-In our study we used the series of river discharge statistics given in the Global Streamflow Indices and Metadata Archive (GSIM). The indexes include set of statistical parameters (mean, standard deviation, quantiles, etc), which are calculated from series of  river discharges observed at hydrological sites located the Word wide (Gudmunson et al., 2018). The authors analyese the daily series of river discharches collected in 10 hydrological datasets with uniformed methods while evaluating also the quality control of hydrological records. We used the indexes estimated from the records collected for 28 sites listed further:
+
+We used the series of statistics for the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM), which  is included set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from series of river discharges observed at hydrological sites located the Word wide (Gudmunson et al., 2018). The archive is based on the daily series of river discharches collected over 10 hydrological data sets, and the authors used uniformed methods while evaluating the quality control of hydrological records and streamflow indexes. Further, the series of the indexes were selected at site located in the rivers with (a) the catchement area more than 1000 km2; (b) not disturbed by water regulation; (c) the longest observational time series of a good quality; (d) location in various climate (vegetation) zones. We used the indexes estimated from the records collected for 29 sites listed further:
 8  Russia:
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
         Sukhona at Rabanga, 1877-1999, 106 year
@@ -85,22 +86,19 @@ In our study we used the series of river discharge statistics given in the Globa
          Glama River at Skarnes, 1887-2014, 128 
          Bayelva at Bayelva (Svalbard), 1989-2015
 
-1 Danmark:         
+1 Denmark:         
          Zackenberg River at Zakenberg hydrological station (Greenland), 1996-2015, 20
          
 2 Sweden: Roeran at Ytternholmen, 1924-2016
           Tornetraesk at Abisko, 1918-2016
                                    
-4 Finland : 
+2 Finland : 
         Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
         Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 
-        Kymijoki at Anjala, 1938-2013,  + 2001-2020 in SYKE open monthly data...
-        Kalajoki at 
-                             
+                                             
 1 Iceland: 
          Olfusa River at Selfoss, 1950-2018, 69; 
 
-                
 1 Belorus: 
           Ptich River at Daraganovo, 1919-1995, 77
 
@@ -122,87 +120,24 @@ In our study we used the series of river discharge statistics given in the Globa
 
 1 Lithuania: Nemunas-Neman River at Smalininkai, 1812-2009, 198 
 
+Figure XX shows the location 29 hydrological gauges considered in the further analyses. The metadata of the indexes includes the river name, station name, altitude, catchment area, date of start/end of series, the length, information on data quality control and national identification. The selected hydrological sites are located at the rivers with (a) catchment area more than 1000 km2; (b)  not disturbed by water regulation; (c) longest observational time series of a high quality; (d) located in various climate (vegetation) zones. The hydrological sites are mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 4 gauges in Norway, 2 gauges in Finland, 2 gauges in Germany, Great Britain, and 1 gauges in in Denmark, Sweden, Estonia, the Netherlands, Iceland, Belarus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal and Greek.
 
-Fig. XX show the selected hydrological sites, which are located at the rivers with (a) catchement area more than 1000 km2; (b) mostly they are not disturbed by water regulation; (c) with the longest observational time series of a good quality; (d) located in various climate (vegetation) zones. The hydrological sites mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 3 gauges in Norway, 4 gauges in Finalnd, 1 Sweden, Estonia, Germany, France, GB, and 1 gauges in NL, Iceland, Belorus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.
-
-
-
+There more than 25 stream flow indexes given by Gudmunsson et al. (2018) aggregated over a month, season and year. The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the series of yearly mean, maximal and minimal river discharges in order to evaluate long-term variability  in annual, maximal and minimal types of river runoff (WMO_hydrology, XXX). These types of river runoff allow to better understand recent changes in hydrological regime and surface water resources, and its affect to frequency and severity of extreme droughts and floods. 
 
 
-Figure at the attachement shows the location of the gauges colored according to the sources offered the metadata: the GRDC climate stations (red dots); the dataset collection by Gunmunsson et al., 2018 (blue dots) and the RArctic dataset (orange dots) were used used. In each dataset, the metadata includes the river name, station name, altitude, catchemnt area, date of start/end of series, the length, overview on the quality control and national indentification. Fig. XX Hydrological network
 
-
-10  Russia (RArcic): Severnya Dvina River at Abramkovo, 1877-1988 (?), 112 year 
-        Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year, ++ monthly, seasonaly and yearly, GSIM
-        Sukhona at Rabanga, 1877-1999, 106 year, ++ monthly, seasonaly and yearly, GSIM 
-        Pechora River at Yaksha, 1913-1998, 86 year
-        Onega River at Kazakovo, 1929 - 1999 (?), 71 year
-        Umba at Payalka, 1930 - 1992  (daily discharges ++ 1979-1988, GRDC)
-        Varzuga at Varzuga, 1935 - 1992  (daily discharges ++ 1979-2011, GRDC) + monthly, seasonaly and yearly, GSIM
-                       Ponoy at Kanevka, (daily dicharges ++ 1954-2004, GRDC) 
-        Vaga at Ust' Suma, 1956 - 1999 (?), 44 
-        Pinega at Kulogory, 1914-1999 (?), 86   ++ monthly, seasonaly and yearly, GSIM
-        Belomorkanal at Matkozh, 1956-1988, 33: connection to the While Sea
-        
-  + 3 Russia (Gudmunson et al., 2018):  Neva River at  Novosaratovka, 1945-2011, 67: connection to the Baltic Sea + monthly, seasonaly and yearly, GSIM
-                                  Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56: +indexes monthly
-                                  Pasha at Poretchje, 1934-1988, 55 : + + monthly, seasonaly and yearly, GSIM
-        
-2 Sweden (prischine): Abiskojakka at Abisko, 1918-2019, 102
-                      Roeran at Ytternholmen, 1924-2016
-                      
-3 Norway (Gudmunson et al., 2018): Losna River at Losna, 1896-2014, 119  (daily/monthly discharges ++ 1896-2008, GRDC) 
-                                   Tana River at Polmak, 1911-2014, 104 (daily/monthly disch ++ 1911-2009, GRDC), ++ monthly, seasonaly and yearly, GSIM
-                                   Glama River at Skarnes, 1887-2014, 128 (daily/monthy discharges in GRDC ++ 1887-2008)
-                                   
-2 Finland (Gunmunson, 2018): Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
-                 Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 (daily discharges ++ 1863-2013)  
-                     (GRDC): Kymijoki at Anjala, 1938-2013,  + 2001-2020 in SYKE open monthly data...
-                     ++ kalajoki.mo
-                   
-          (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004, + 2001-2020 in SYKE open monthly data
-                              Nilakka River at Äyskoski, 1886-2004,
-                            
-1 Iceland (prischine): Olfusa River at Selfoss, 1950-2018, 69; ++ monthly, seasonaly and yearly, GSIM
-
-2 Estonia (prischine): Narva Jogi River at Vasknarva, 1903-2014, 112; 
-                       Ema Jogi at Tartu, 1922-2017, 96
-                       
-1 Belorus (Gudmunson et al., 2018): Ptich River at Daraganovo, 1919-1995, 77
-
-2 Germany (Gudmunson et al., 2018): Elbe River at Dresden, 1806-2013, 208  ++ monthly, seasonaly and yearly, GSIM
-                                   Danube at Achleien, 1990-2013, 114 ++ monthly, seasonaly and yearly, GSIM
-                                  
-2 GR (prischine): Ribble River at Samlesbury, 1960-2018, 59 ++ monthly, seasonaly and yearly, GSIM
-   (Gundmuson et al., 2018): Thames at kingston, 1883-2013, 131 ++ monthly, seasonaly and yearly, GSIM
-   
+Q1?
 2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
        (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
-
-1 Chech republic (prischine): Sazava River at Zruc nad Sazvoy, 1942-2018, 77
-
-1 Romania (prischine): Szamos River at Satu Mare, 1938-2008, 71
-
-1 The Nederlands (prischine): Rhine River at Lobith, 1901-2017, 117
-
-1 Slovakia (prischine): Hroh River at Brehy, 1930-2017, 88
-
-1 Lithuania (Gundmunson et al., 2018): Nemunas-Neman River at Smalininkai, 1812-2009, 198 ++ monthly, seasonaly and yearly, GSIM
-
-There no any time series longer then 39 years were found in Italy, Spain, Portugal ang Greek.  
-
-How about to include 3 gauges located in Greenland and Svalbard (black dots in the Figure attached)?  
-                               
-      
-        
-Table 1 shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
+       
+Table XX shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
 where Q is a yearly average water discharge, m3s-1; T is a number of seconds in a year, and A is a catchment area, m2. This formula was applied while calculating the water discharge from the annual specific discharge for the projected period.
 
 What are the floods / drougths
 Table 1.
 
-TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
+Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 
 1. the monthly hydrological (river water discharges, lake lavels, precipitation, snow water equvivalent, ground water levels, water temperature) statistic (mean and anomaly from 1980-2010) from 2001 to 2020 are given here: http://wwwi3.ymparisto.fi/i3/paasivu/eng/etusivu/etusivu.htm
 
