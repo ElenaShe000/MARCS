@@ -48,8 +48,6 @@ What and why needed to focus on the probabilistic approach?
 
 The study aims 
  
- ... toward seasonal prediction of freeze-up/break-up dates on lakes, rivers and inland seas (service: water transport, hydropower production; ++ for the surface parameterization in NWPs). 
- 
  ... toward long term prediction of extreme floods and droughts (service: hydropower, roads insfrustructure, agriculture, 
  
  ... toward seasonal prediction of river runoff on a catchment scale
@@ -67,10 +65,60 @@ model simulations  ....
 
 
 # hydrological observations
-In our study we used the river discharges... 
-1) the Global Streamflow Indices and Metadata Archive (GSIM) given by Gudmunson et al., (2018). The authors analyse the quality of the observed time series of the river discharches collected in the various datasets by using a set of uniformed methods to evaluate the quality of the hydrological records in them. 
+In our study we used the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM). The indexes include the set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from the daily river discharges at hydrological sites located Word wide (Gudmunson et al., 2018). The authors analyese the daily series of river discharches collected in 10 datasets with uniformed methods evaluating also the quality control of hydrological records. The records are collected for XX sites marked with the blue points in the Fig. XX.
 
-Gudmunson et al. 2018: "Until now, most relevant in situ observations have been held by national and regional authorities, and despite their best efforts, international data centres only have access to a small subset of the full observed record (Do et al., 2018a). This situation stands in contrast to the fact that monitoring data are increasingly being made publicly available through regional and national authorities (Do et al., 2018a). In this paper series, we present an international collection of river and streamflow observations that covers more than 30 000 stations around the globe, highlighting the fact that these are among the best monitored variables of the terrestrial water cycle (Fekete et al., 2012, 2015; Gudmundsson and Seneviratne, 2015; Hannah et al., 2011). "
+Table XX
+10  Russia:
+        1 Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
+        2 Sukhona at Rabanga, 1877-1999, 106 year
+        3 Varzuga at Varzuga, 1935 - 1992  
+        4 Ponoy at Kanevka, 
+        5 Pinega at Kulogory, 1914-1999 (?), 86  
+        6 Neva River at  Novosaratovka, 1945-2011, 67
+        7 Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56
+        8 Pasha at Poretchje, 1934-1988, 55 
+        
+                      
+3 Norway: 
+         Losna River at Losna, 1896-2014, 119 
+          Tana River at Polmak, 1911-2014, 104 
+          Glama River at Skarnes, 1887-2014, 128 (daily/monthy discharges in GRDC ++ 1887-2008)
+                                   
+4 Finland : 
+        Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
+        Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 
+        Kymijoki at Anjala, 1938-2013,  + 2001-2020 in SYKE open monthly data...
+        Kalajoki at 
+                   
+          (++ Korhonen, 2019): Tornionjoki River at Karunki, 1911-2004, + 2001-2020 in SYKE open monthly data
+                              Nilakka River at Äyskoski, 1886-2004,
+                            
+1 Iceland: 
+         Olfusa River at Selfoss, 1950-2018, 69; 
+                  
+1 Belorus: 
+          Ptich River at Daraganovo, 1919-1995, 77
+
+2 Germany: 
+           Elbe River at Dresden, 1806-2013, 208
+           Danube at Achleien, 1990-2013, 114 
+                                  
+2 UK: 
+   Ribble River at Samlesbury, 1960-2018, 59 
+   Thames at kingston, 1883-2013, 131 
+   
+2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
+       (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
+
+1 Chech republic (prischine): Sazava River at Zruc nad Sazvoy, 1942-2018, 77
+
+1 Romania (prischine): Szamos River at Satu Mare, 1938-2008, 71
+
+1 The Nederlands (prischine): Rhine River at Lobith, 1901-2017, 117
+
+1 Slovakia (prischine): Hroh River at Brehy, 1930-2017, 88
+
+1 Lithuania: Nemunas-Neman River at Smalininkai, 1812-2009, 198 
 
 2) the data collected in gauges located on rivers not disturbed by human activity such us runoff regulation nor land cover changes ( https://www.bafg.de/GRDC/EN/04_spcldtbss/46_CSS/css_node.html). The gauges are mostly located in France and nearby regions, UK, Iceland, Sweden and Finland. 
 
