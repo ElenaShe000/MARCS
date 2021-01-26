@@ -69,7 +69,7 @@ model simulations  ....
 ???We selected the hydrological sites oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Some studies reccomend also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). ???
 
 
-We used the series of statistics for the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM), which  is included set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from series of river discharges observed at hydrological sites located the Word wide (Gudmunson et al., 2018). The archive is based on the daily series of river discharches collected over 10 hydrological data sets, and the authors used uniformed methods while evaluating the quality control of hydrological records and streamflow indexes. Further, the series of the indexes were selected at site located in the rivers with (a) the catchement area more than 1000 km2; (b) not disturbed by water regulation; (c) the longest observational time series of a good quality; (d) location in various climate (vegetation) zones. We used the indexes estimated from the records collected for 29 sites listed further:
+We used the series of statistics for the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM), which  is included set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from series of river discharges observed at hydrological sites located the Word wide (Gudmunsson et al., 2018). The archive is based on the daily series of river discharches collected over 12 hydrological datasets, and the authors used uniformed methods while evaluating the quality control of hydrological records and streamflow indexes. Further, the series of the indexes were selected at site located in the rivers with (a) the catchement area more than 1000 km2; (b) not disturbed by water regulation; (c) the longest observational time series of a good quality; (d) location in various climate (vegetation) zones. We used the indexes estimated from the records collected for 29 sites listed further:
 8  Russia:
         Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
         Sukhona at Rabanga, 1877-1999, 106 year
@@ -122,13 +122,11 @@ We used the series of statistics for the river discharges given in the Global St
 
 Figure XX shows the location 29 hydrological gauges considered in the further analyses. The metadata of the indexes includes the river name, station name, altitude, catchment area, date of start/end of series, the length, information on data quality control and national identification. The selected hydrological sites are located at the rivers with (a) catchment area more than 1000 km2; (b)  not disturbed by water regulation; (c) longest observational time series of a high quality; (d) located in various climate (vegetation) zones. The hydrological sites are mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 4 gauges in Norway, 2 gauges in Finland, 2 gauges in Germany, Great Britain, and 1 gauges in in Denmark, Sweden, Estonia, the Netherlands, Iceland, Belarus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal and Greek.
 
-There more than 25 stream flow indexes given by Gudmunsson et al. (2018) aggregated over a month, season and year. The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the series of yearly mean, maximal and minimal river discharges in order to evaluate long-term variability  in annual, maximal and minimal types of river runoff (WMO_hydrology, XXX). These types of river runoff allow to better understand recent changes in hydrological regime and surface water resources, and its affect to frequency and severity of extreme droughts and floods. 
+There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the series of yearly mean, maximal and minimal river discharges in order to evaluate long-term variability  in annual, maximal and minimal types of river runoff (WMO_hydrology, XXX). These types of river runoff allow to understand recent changes in hydrological regime and surface water resources, and its affect to frequency and severity of extreme droughts and floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
+
+Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
 
 
-
-Q1?
-2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
-       (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
        
 Table XX shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
@@ -136,7 +134,8 @@ where Q is a yearly average water discharge, m3s-1; T is a number of seconds in 
 
 What are the floods / drougths
 Table 1.
-
+Q1? 2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
+       (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
 Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 
 1. the monthly hydrological (river water discharges, lake lavels, precipitation, snow water equvivalent, ground water levels, water temperature) statistic (mean and anomaly from 1980-2010) from 2001 to 2020 are given here: http://wwwi3.ymparisto.fi/i3/paasivu/eng/etusivu/etusivu.htm
@@ -144,11 +143,6 @@ Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 RIVER DISCHARGES example: http://wwwi3.ymparisto.fi/i3/vuositiedote/ENG/2019/virtaama/virtaama.htm
 
 
-
-
-
-
- 
 
 
 # meteorological observations
@@ -162,16 +156,6 @@ reference SYNOP stations...
 
 What are the reanalyses:
 a) ERA-Interim or ERA5
-
-
-TV by 7.01.2021: "Tuomas wrote that he has already downloaded ERA5 data on Z200, Z500, precipitation and evaporation. I guess from 1979 to almost present."
-
-by TV by 12.01.2021: "I thin atmospheric circulation is reasonably well presented in reanalyses also before 1979, but there may be larger errors in moisture variables. In Jakobson and Vihma (2010, DOI: 10.1002/joc.2039) we excluded the years before 1979, because trends in evaporation, precipitation and net precipitation showed remarkable changes around 1979 (see Figure 2 and Table 1 in the paper). We were not sure how large portions of these changes can be explained by the assimilation of satellite data (e.g. AMSU-B) and by (true) decadal changes in the large-scale atmospheric circulation, and we therefore adopted a careful approach and included in the analyses data from 1979 only."
-
-AK by 11.01.2021: "The reanalysis before 1979 may be not as good as that after 1979 but it does not necessarily mean that these data is not useful. I’ve never studied how the quality of reanalyses drops before 1979, perhaps there are studies that are relevant for us? But I would expect that at least large-scale circulation should be reasonably well constrained in the Northern hemisphere also before 1979. Of course the amount of reanalysis data that would need to be downloaded can be large, which is another issue." 
-
-How the reanalyses reproduce the observations at the nearest SYNOP stations?
-
 
 AIM: ... to improve seasonal prediction of river runoff ...   ??? SYKE duties ...
 OBJECTIVES:
@@ -232,6 +216,8 @@ We calibrated the hydrological model with the meteorological data extracted from
 
 
 ## References 
+Alexandersson, H., 1986. A homogeneity test applied to precipitation data. J. Climatol., 6,661-675.
+
 Arheimer, B. and Lindström, G.: Climate impact on floods: changes in high flows in Sweden in the past and the future (1911–2100), Hydrol. Earth Syst. Sci., 19, 771-784, doi:10.5194/hess-19-771-2015, 2015. 
 
 Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., Strandberg, G., Tyrlis, E., Wang,  S.,   Wilcke, R., 2020: On the contribution of internal climate variability to European future climate trends, Tellus A: Dynamic Meteorology and Oceanography, 72:1, 1-17, DOI: 10.1080/16000870.2020.1788901 
@@ -239,6 +225,8 @@ Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., S
 Beck, H., Zimmermann, N., McVicar, T. et al. Present and future Köppen-Geiger climate classification maps at 1-km resolution. Sci Data 5, 180214 (2018). https://doi.org/10.1038/sdata.2018.214
 
 Boisvert, L. N., D. L. Wu, and C.-L. Shie, 2015: Increasing evaporation amounts seen in the Arctic between 2003 and 2013 from AIRS data. J. Geophys. Res. Atmos., 120, 6865–6881, https://doi.org/10.1002/2015JD023258.
+
+Buishand T.A. 1982: Some methods for testing the homogeneity of rainfall records. J Hydrol 58(1–2):11–27
 
 Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow Indices and Metadata Archive (GSIM) – Part 2: Quality control, time-series indices and homogeneity assessment, Earth Syst. Sci. Data, 10, 787–804, https://doi.org/10.5194/essd-10-787-2018, 2018. 
 
@@ -270,6 +258,8 @@ Danilovich, I., Wrzesínski, D. & Nekrasova, L. 2007. Impact of the North Atlant
 
 Hodgkins,  G.A.,  Whitfield,  P.H.,  Burn,  D.H.,  Hannaford,  J.,  Renard,  B.,  Stahl,  K.,  Fleig,  A.K.,  Madsen,  H.,  Mediero,  L.,  Korhonen,  J.,  Murphy,  C.  &  Wilson,  D.  2017.  Climate-driven  variability  in  the  occurrence  of  major  floods  across  North  America and Europe. Journal of Hydrology 552, 704–717. 
 
+Jaiswal, R.K., Lohani, A.K. & Tiwari, H.L. Statistical Analysis for Change Detection and Trend Assessment in Climatological Parameters. Environ. Process. 2, 729–749 (2015). https://doi.org/10.1007/s40710-015-0105-3
+
 Korhonen, J. & Kuusisto, E. 2010. Long-term changes in the discharge regime in Finland. Hydrology Research41(3-4), 253–268.
 Korhonen, 2019: 
 
@@ -282,6 +272,7 @@ P. Milly, J. Betancourt, M. Falkenmark, R. M. Hirsch, Z. W. Kundzewicz, D. P. Le
 
 T. Rosmann, E. Domínguez, J. Chavarro. Comparing trends in hydrometeorological average and extreme data sets around the world at different time scales, Journal of Hydrology: Regional Studies, Vol. 5, 200–212, 2016.
 
+Pettitt A.N. (1979) A non-parametric approach to the change point problem. J Appl Stat 28(2):126–135
 
 Veijalainen, N., Korhonen, J., Vehviläinen, B. & Koivusalo, H. 2012. Modelling and statistical analysis of catchment water balance and discharge in Finland in 1951–2099 using transient climate scenarios. Journal of Water and Climate Change3(1), 55–78. 
 
