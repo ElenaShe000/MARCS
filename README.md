@@ -5,11 +5,14 @@
 
 # Introduction 
 
-What changes are observed in the Arctic?
+What is floods?
 
-Observations evident environmental changes connected to enhanced warming of the Arctic (also known as the Arctic Amplification): shrinkage of an ice cover in the Arctic Ocean, degradation of a permafrost in Siberia, melting of glaciers in Svalbard and Central Asia, shifting in synoptic atmospheric circulation in Europe. In turn, the synoptic atmospheric processes determine regional distribution of the precipitation, the evaporation, the river runoff and water resource of lakes. These changes in the atmospheric circulation leads to weather and hydrological extreme events latest often observed in many European countries (XXX; XXX). These extreme events also known as heat waves and droughts, heavy rainfall and floods,  avalanches, etc. They damage social infrastructure, kill people and result to economical losses. Therefore, the early prediction of these extremes is among the actual task for national hydrometorological service. This study contributed to improving the methods of the seasonal prediction of floods. 
 
-How the AA is detected?
+Why floods?
+Observations evidence environmental changes connected to enhanced warming over the Arctic (also known as the Arctic Amplification): shrinkage of an ice cover in the Arctic Ocean, degradation of a permafrost in Siberia, melting of glaciers in Svalbard and Central Asia, shifting in synoptic atmospheric circulation in Europe (XXX;XXX). In turn, the synoptic atmospheric processes determine regional distribution of precipitation, evaporation, river runoff and water resource of lakes and aquifers. The changed atmospheric circulation leads to weather and hydrological extreme events latest often observed in many European countries (XXX; XXX). Among others, increase of water level in rivers, lakes and artifical reservoirs may lead to overflooded of large territories. Extreme floods damage social infrastructure (roads, bridges, pipes and hydraulic constraction of hydropower plants), kill people and result to economical losses.  Therefore, the early prediction of these extremes is among the actual task for national hydrometorological service. This study contributed to improving methods of seasonal prediction of floods. 
+
+What are sources of floods?
+River floods are usually sourced from spring melting of snow cover accumulated over winter or from heavy rainfalls over summer and autumn seasons. The spring floods are typical in the northern regions of Europe, whereas the rain-induced floods mostly happen on the south of the continent. In t
 
 
 As the unhomogenity in the observed series of meteorological and hydrological series dates to late 1990s, and the legths of the observated  series seems to be too short to distigush the reason of the unhomogenity: would it attribute to natural variability or forced by human activity (Koenigk et al., 2020; XX). 
@@ -17,7 +20,7 @@ As the unhomogenity in the observed series of meteorological and hydrological se
 
 
 What are the risks of hydropower hydropower production? 
-Humans traditionally use water of lakes and rivers in energy production. The hydropower generation is among others social activities highly related to weather phenomena and hydrological regime of the rivers and lakes. The risks of in the hydropower generation is  closely related the hydrological events of rare occurrence (or extremes). These hydrological extremes (including floods and drought) are traditionally estimated from time series of the lake level and/or river water discharge observed at a network of gauges. The observations on the gauges include the water level/stage daily river discharge are usually evaluated the level time series are hydrological observations are mostly launched in begging of the last century, and almost until end of 1990s, no significant trend are observed in the hydrological time series. It allows to apply statistical methods of the frequency analyse (XX) while estimating the hydrological events of rare occurrence, i.e. the floods happened once per 10, 100, or 1000 years. The exceedance probability curves of yearly maximum river runoff provides whole information to assessment of the risks connected to extreme floods in a particular hydropower construction (XX;XX; Shevnina, 2014; Kovalenko, 2004).
+Humans traditionally use water of lakes and rivers in energy production. The hydropower generation is among others social activities highly related to weather phenomena and hydrological regime of the rivers and lakes. The risks of in the hydropower generation is related the hydrological events of rare occurrence (or extremes). These hydrological extremes (including floods and drought) are traditionally estimated from time series of the lake level and/or river water discharge observed at a network of gauges. The observations on the gauges include the water level/stage daily river discharge are usually evaluated the level time series are hydrological observations are mostly launched in begging of the last century, and almost until end of 1990s, no significant trend are observed in the hydrological time series. It allows to apply statistical methods of the frequency analyse (XX) while estimating the hydrological events of rare occurrence, i.e. the floods happened once per 10, 100, or 1000 years. The exceedance probability curves of yearly maximum river runoff provides whole information to assessment of the risks connected to extreme floods in a particular hydropower construction (XX;XX; Shevnina, 2014; Kovalenko, 2004).
 
 trends in hydrological time series: Finland 13 non regulated basins, Korhonen and Kuusisto, 2010; Russian Arctic, Shevnina, 2013; 
 Korhonen, 2019: "the  analyses  show  statistically  significant  changes  in  both  ice  cover  and  discharge  regime until the early 21st century". 
@@ -50,7 +53,7 @@ The study aims
  
  ... toward long term prediction of extreme floods and droughts (service: hydropower, roads insfrustructure, agriculture, 
  
- ... toward seasonal prediction of river runoff on a catchment scale
+ ... toward seasonal prediction of river runoff on a catchment scale (service for hydropower production).
  
  
 objectives
