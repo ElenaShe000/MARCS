@@ -14,6 +14,12 @@ Observations evidence environmental changes connected to enhanced warming over t
 What are sources of floods?
 River floods are usually sourced from spring melting of snow cover accumulated over winter or from heavy rainfalls over summer and autumn seasons. The spring floods are typical in the northern regions of Europe, whereas the rain-induced floods mostly happen on the south of the continent. In t
 
+Atmosferic water content == Evaporation
+Naakka et al., 2019: 
+"Dufouret al. (2016)found that although the atmospheric moisture content has already increased in the Arctic,..." 
+"Atmospheric moisture content has a strong seasonal cyclein high latitudes (Naakka et al., 2018), and the amount oftotal moisture transport was closely related to this cycle,because the total moisture transport is simply a product ofthe atmospheric moisture content and scalar meridionalwind speed. "
+"As an annual mean, the total moisture transport wasseveral times larger than the net moisture transport. Accord-ingly, most of the northwards moisture transport was bal-anced by southwards moisture transport."
+
 
 As the unhomogenity in the observed series of meteorological and hydrological series dates to late 1990s, and the legths of the observated  series seems to be too short to distigush the reason of the unhomogenity: would it attribute to natural variability or forced by human activity (Koenigk et al., 2020; XX). 
 
@@ -227,6 +233,8 @@ Arctic warming (by season): Koenigk T. ,  Bärring,L., Matei, D., Nikulin, G., S
 
 Beck, H., Zimmermann, N., McVicar, T. et al. Present and future Köppen-Geiger climate classification maps at 1-km resolution. Sci Data 5, 180214 (2018). https://doi.org/10.1038/sdata.2018.214
 
+Bengtsson, L., Hodges, K.I., Koumoutsaris, S., Zahn, M. and Keenlyside, N.(2011) The changing atmospheric water cycle in polar regions in a warmerclimate.Tellus  A, 63, 907–920. https://doi.org/10.1111/J.1600-0870.2011.00534.X.
+
 Boisvert, L. N., D. L. Wu, and C.-L. Shie, 2015: Increasing evaporation amounts seen in the Arctic between 2003 and 2013 from AIRS data. J. Geophys. Res. Atmos., 120, 6865–6881, https://doi.org/10.1002/2015JD023258.
 
 Buishand T.A. 1982: Some methods for testing the homogeneity of rainfall records. J Hydrol 58(1–2):11–27
@@ -235,9 +243,15 @@ Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow I
 
 freshwater inflow to the Arctic Ocean: Dyurgerov, M., & Carter, C. (2004). Observational Evidence of Increases in Freshwater Inflow to the Arctic Ocean. Arctic, Antarctic, and Alpine Research, 36(1), 117-122. Retrieved January 12, 2021, from http://www.jstor.org/stable/1552435
 
+Dee, D.P., Uppala, S.M., Simmons, A.J., Berrisford, P., Poli, P., Kobayashi, S.,Andrae, U., Balmaseda, M. A., Balsamo, G., Bauer, P., Bechtold, P., Bel-jaars, A. C. M., van de Berg, L., Bidlot, J., Bormann, N., Delsol, C., Dragani,R., Fuentes, M., Geer, A. J., Haimberger, L., Healy, S. B., Hersbach, H.,Hólm, E. V, Isaksen, L., Kållberg, P., Köhler, M., Matricardi, M., McNally,A. P., Monge-Sanz, B. M., Morcrette, J.-J., Park, B.-K., Peubey, C., de Ros-nay, P., Tavolato, C., Thépaut, J.-N. and Vitart, F. (2011) The ERA-Interimreanalysis: configuration and performance of the data assimilation system.Quarterly Journal of the Royal Meteorological Society, 137(656), 553–597.https://doi.org/10.1002/QJ.828.
+
 Cassano, J. J., P. Uotila, and A. Lynch, 2006: Changes in synoptic weather patterns in the polar regions in the twentieth and twenty-first centuries, part 1: Arctic. Int. J. Climatol., 26, 1027–1049, https://doi.org/10.1002/joc.1306.
 
-Dee, D. P., and Coauthors, 2011: The ERA-Interim reanalysis: Configuration and performance of the data assimilation system. Quart. J. Roy. Meteor. Soc., 137, 553–597, https://doi.org/10.1002/qj.828.
+Dufour, A., Zolina, O. and Gulev, S.K. (2016) Atmospheric moisture transportto the Arctic: assessment of reanalyses and analysis of transport components.Journal    of    Climate,  29,  5061–5081.  https://doi.org/10.1175/JCLI-D-15-0559.1.
+
+Naakka, T., Nygård, T. and Vihma, T. (2018) Arctic humidity inversions: clima-tology and processes.Journal of Climate, 31, 3765–3787. https://doi.org/10.1175/JCLI-D-17-0497.1.
+
+
 
 hydrological datasets:
 grided... Ghiggi, G., Humphrey, V., Seneviratne, S. I., and Gudmundsson, L.: GRUN: an observation-based global gridded runoff dataset from 1902 to 2014, Earth Syst. Sci. Data, 11, 1655–1674, https://doi.org/10.5194/essd-11-1655-2019, 2019. 
