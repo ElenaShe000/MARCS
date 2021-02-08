@@ -134,6 +134,7 @@ Figure XX shows the location 29 hydrological gauges considered in the further an
 table 1 - 29 gauges with watersheds area more than 10,000 km2, longest time series, various climate zones, not disturbed by human activities;
 table 2 - 29 gauges ID associated with the reference data sets (GRDC= Global runoff dataset; EWA?; arcticXX - RArctic, Shiklomanov);
 table 3 - 29 gauges with lat/lon,altitude and area
+table 4 - number of dams!!!
 
 Latituge rane from 47.8 to 78.9 degree North
 
