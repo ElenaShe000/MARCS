@@ -133,7 +133,9 @@ Figure XX shows the location 29 hydrological gauges considered in the further an
 
 table 1 - 29 gauges with watersheds area more than 10,000 km2, longest time series, various climate zones, not disturbed by human activities;
 table 2 - 29 gauges ID associated with the reference data sets (GRDC= Global runoff dataset; EWA?; arcticXX - RArctic, Shiklomanov);
+table 3 - 29 gauges with lat/lon,altitude and area
 
+Latituge rane from 47.8 to 78.9 degree North
 
 There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the long term series of yearly minimal river discharges and the dates of the maximal river discharges. Further analyses of the series of maximal river discharches allow to  understand better recent changes in frequency and severity of extreme floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
 
