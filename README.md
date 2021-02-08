@@ -131,17 +131,21 @@ We used the series of statistics for the river discharges given in the Global St
 
 Figure XX shows the location 29 hydrological gauges considered in the further analyses. The metadata of the indexes includes the river name, station name, altitude, catchment area, date of start/end of series, the length, information on data quality control and national identification. The selected hydrological sites are located at the rivers with (a) catchment area more than 1000 km2; (b)  not disturbed by water regulation; (c) longest observational time series of a high quality; (d) located in various climate (vegetation) zones. The hydrological sites are mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 4 gauges in Norway, 2 gauges in Finland, 2 gauges in Germany, Great Britain, and 1 gauges in in Denmark, Sweden, Estonia, the Netherlands, Iceland, Belarus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal and Greek.
 
-There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the series of yearly mean, maximal and minimal river discharges in order to evaluate long-term variability  in annual, maximal and minimal types of river runoff (WMO_hydrology, XXX). These types of river runoff allow to understand recent changes in hydrological regime and surface water resources, and its affect to frequency and severity of extreme droughts and floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
+table 1 - 29 gauges with watersheds area more than 10,000 km2, longest time series, various climate zones, not disturbed by human activities;
+table 2 - 29 gauges ID associated with the reference data sets (GRDC= Global runoff dataset; EWA?; arcticXX - RArctic, Shiklomanov);
+
+
+There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the long term series of yearly minimal river discharges and the dates of the maximal river discharges. Further analyses of the series of maximal river discharches allow to  understand better recent changes in frequency and severity of extreme floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
 
 Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
 
 
        
-Table XX shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
+Table 1 shows the gauges, catchment areas and lengths of the time series, which was used in analyse of the river surface runoff. In GRDC datasets, the observations on the river surface runoff is expressed in a volumetric flow rate (water discharge, m3s-1). In our study, the volumetric rate was converted to a specific water discharge, and the yearly time series of annual specific discharge (noted further as ARR, mm yr-1 ) were calculated as follows:
 ARR = 1000 Q T / A,				 (1)
 where Q is a yearly average water discharge, m3s-1; T is a number of seconds in a year, and A is a catchment area, m2. This formula was applied while calculating the water discharge from the annual specific discharge for the projected period.
 
-What are the floods / drougths
+What are the floods 
 Table 1.
 Q1? 2 France (prischine): Gave de Pau at Berenx, 1923-2012, 90
        (prischine): Gave d'Olorn at Oloron Sante Maria, 1912-2012, 101
