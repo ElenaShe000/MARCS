@@ -78,65 +78,17 @@ model simulations  ....
 ???We selected the hydrological sites oultined the catchment area less then 1000 km2 were excluded to skip off local scale features in the hydrological regime. Some studies reccomend also exclude the gauges outlined the catchments with the area more 50000 km2 to being not accounted for the global scale features in the hydrological regime of the rivers considered (Rozhdestvenskiy, 1986). In our study, we also included those gauges since the area of 50 000 km2 (or 200 km x 250 km) which is much smaller than a typical radius of a synoptic-scale cyclone (XXX; XX). ???
 
 
-We used the series of statistics for the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM), which  is included set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from series of river discharges observed at hydrological sites located the Word wide (Gudmunsson et al., 2018). The archive is based on the daily series of river discharches collected over 12 hydrological datasets, and the authors used uniformed methods while evaluating the quality control of hydrological records and streamflow indexes. Further, the series of the indexes were selected at site located in the rivers with (a) the catchement area more than 1000 km2; (b) not disturbed by water regulation; (c) the longest observational time series of a good quality; (d) location in various climate (vegetation) zones. We used the indexes estimated from the records collected for 29 sites listed further:
-8  Russia:
-        Severnaya Driva at Ust'-Pinega, 1881-1999, 119 year
-        Sukhona at Rabanga, 1877-1999, 106 year
-        Varzuga at Varzuga, 1935 - 1992  
-        Ponoy at Kanevka, 
-        Pinega at Kulogory, 1914-1999 (?), 86  
-        Neva River at  Novosaratovka, 1945-2011, 67
-        Zapadnaya Dvina at Zapadnaya Dvina, 1933-1988, 56
-        Pasha at Poretchje, 1934-1988, 55 
-                              
-4 Norway: 
-         Losna River at Losna, 1896-2014, 119 
-         Tana River at Polmak, 1911-2014, 104 
-         Glama River at Skarnes, 1887-2014, 128 
-         Bayelva at Bayelva (Svalbard), 1989-2015
+We used the series of statistics for the river discharges given in the Global Streamflow Indices and Metadata Archive (GSIM), which  is included set of statistical parameters (mean, standard deviation, quantiles, etc) calculated from series of river discharges observed at hydrological sites located the Word wide (Gudmunsson et al., 2018). The archive is based on the daily series of river discharches collected over 12 hydrological datasets, and the authors used uniformed methods while evaluating the quality control of hydrological records and streamflow indexes. Further, the series of the indexes were selected at sites located in the rivers with (a)  catchement area more than 1000 km2; (b) not disturbed by water regulation; (c) the observational time series of a good quality; (d) location in various climate (vegetation) zones. 
 
-1 Denmark:         
-         Zackenberg River at Zakenberg hydrological station (Greenland), 1996-2015, 20
-         
-2 Sweden: Roeran at Ytternholmen, 1924-2016
-          Tornetraesk at Abisko, 1918-2016
-                                   
-2 Finland : 
-        Oulujoki River at Lentuajarvi outlet, 1911-2013, 103  + 2001-2020 in SYKE open monthly data
-        Muroleenkoski River at (lake outlet) //or KOKEMAENJOKI  MUROLEENKOSKI ?//, 1863-2016, 151 
-                                             
-1 Iceland: 
-         Olfusa River at Selfoss, 1950-2018, 69; 
+Gudmunsson et al. (2018) give the information on the caracteristic of the river basins outlined by the hydrological gauges. Among others, the characteristic include the number of dams, the data quaility class, the climate type, the soil type and the length of the series of the indices. 
 
-1 Belorus: 
-          Ptich River at Daraganovo, 1919-1995, 77
 
-2 Germany: 
-           Elbe River at Dresden, 1806-2013, 208
-           Danube at Achleien, 1990-2013, 114 
-                                  
-2 UK: 
-   Ribble River at Samlesbury, 1960-2018, 59 
-   Thames at kingston, 1883-2013, 131 
-   
-1 Chech republic: Sazava River at Zruc nad Sazvoy, 1942-2018, 77
+Figure XX shows the location hydrological gauges considered in the further analyses. The metadata of the indexes includes the river name, station name, altitude, catchment area, date of start/end of series, the length, information on data quality control and national identification. The selected hydrological sites are located at the rivers with (a) catchment area more than 1000 km2; (b)  not disturbed by water regulation; (c) longest observational time series of a high quality; (d) located in various climate (vegetation) zones. The hydrological sites are mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 4 gauges in Norway, 2 gauges in Finland, 2 gauges in Germany, Great Britain, and 1 gauges in in Denmark, Sweden, Estonia, the Netherlands, Iceland, Belarus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal and Greek.
 
-1 Romania: Szamos River at Satu Mare, 1938-2008, 71
+table 1 -  gauges with watersheds area more than 1,000 km2, longest time series, various climate zones, not disturbed by human activities;
+table 2 -  gauges ID associated with the reference data sets (GRDC= Global runoff dataset; EWA?; arcticXX - RArctic, Shiklomanov);
+table 3 -  gauges with lat/lon,altitude and area
 
-1 The Nederlands: Rhine River at Lobith, 1901-2013
-
-1 Slovakia: Hroh River at Brehy, 1930-2008
-
-1 Lithuania: Nemunas-Neman River at Smalininkai, 1812-2009, 198 
-
-Figure XX shows the location 29 hydrological gauges considered in the further analyses. The metadata of the indexes includes the river name, station name, altitude, catchment area, date of start/end of series, the length, information on data quality control and national identification. The selected hydrological sites are located at the rivers with (a) catchment area more than 1000 km2; (b)  not disturbed by water regulation; (c) longest observational time series of a high quality; (d) located in various climate (vegetation) zones. The hydrological sites are mostly located in two climate zones (C and D according to Beck et al., 2018). The list of the stations includes 8 gauges located in Russia, 4 gauges in Norway, 2 gauges in Finland, 2 gauges in Germany, Great Britain, and 1 gauges in in Denmark, Sweden, Estonia, the Netherlands, Iceland, Belarus, Czech, Romania, Slovakia and Lithuania. There no any time series longer then 39 years were found in Italy, Spain, Portugal and Greek.
-
-table 1 - 29 gauges with watersheds area more than 10,000 km2, longest time series, various climate zones, not disturbed by human activities;
-table 2 - 29 gauges ID associated with the reference data sets (GRDC= Global runoff dataset; EWA?; arcticXX - RArctic, Shiklomanov);
-table 3 - 29 gauges with lat/lon,altitude and area
-table 4 - number of dams!!!
-
-Latituge rane from 47.8 to 78.9 degree North
 
 There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the long term series of yearly minimal river discharges and the dates of the maximal river discharges. Further analyses of the series of maximal river discharches allow to  understand better recent changes in frequency and severity of extreme floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
 
