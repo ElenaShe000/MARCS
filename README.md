@@ -136,21 +136,35 @@ Hydrological variables:
 
 ## 2 Methods
 
-Runoff time series analyse
+I. Homogenity tests (Elena)
 
-1. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
+1a. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
 In time series of yearly mean river dicharges there are no trend found. In series of yealy maximum river dicharges, the trend are detected in 6 rivers (Ptich, Vosso, Pechora, Thames, Gave d'Oloron and Lee River)
- 
+
+1b. Shevnina et al. 2018: homogenity by 3 tests ...
+
+
  ... initail first 3(4) moments for the homogeneous time series
+
+II. "Quasi-stasionary periods" (Elena)
 
 2. Shevnina et al., 2019: the whole period of observations was divided into the sub-periods with the statistically significant difference (shift) inthe mean values. Dividing into the subsamples was done ac-cording to the Student’sttest using the moving window ap-proach (Ducré-Robitaille et al., 2003). We begin from set-ting the size of the first subsample to the chosen minimum(15 members).
   ... years of shift
 
-3. Kovalenko, 2006: beta criterio
+III. "Stability of statistical moments" (Elena)
 
+3. Kovalenko, 2006: beta criteria given in Kovalenko et al., 2011
 
-ES,  Task 1: toward a seasonal prediction of  freeze-up/break-up dates on lakes, rivers and inland sea 
-Nygard et al., 2019. 
+IV. Relationship between precipitation, evaporation and runoff (Tuomas Naakka, Timo Vihma)
+
+4. Two coefficents of runoff (mean and max), an effective precipitation for floods (sourced by snow or rain)
+
+5. Two correlations coefficients (PRE_year vs ARR, PRE_year vs FDR, PRE_season vs FDR) 
+
+V. Relationship between synoptic types and dates of yearly maximum runoff
+
+6: Toward a seasonal prediction of dates of floods: linear/non linear correlation with the SOM indexes (with Nygard et al., 2019). 
+
 
 Q7:How is the accuracy of the atmospheric pressure in the ERA-Interim affect to to detection of the atmospheric large scale circulation for in the regions with various orography?
 
@@ -179,9 +193,6 @@ b). 25 river basins located in Finland (Korhonen and Kuusamo, 2010); 13 unregula
 c). 76 river basins located in the Russian Arctic Shevnina  (2011); longest series until 2002; yearly maximum river discharge; 30 % non-homogenius
 
 
-2. Trend in the proportion Evaporation/Precipitation and Runoff/Precipitation
-a) series of evaporation, precipitation and runoff
-b) “beta criterion” method (Kovalenko, 2004) needs to be implemented to the block of data analysis. 
 
 
 # the large scale synoptic circulation classification
@@ -249,6 +260,8 @@ Korhonen, J. & Kuusisto, E. 2010. Long-term changes in the discharge regime in F
 Korhonen, 2019: 
 
 Kohonen, T., 2001: Self-Organizing Maps. Springer-Verlag, 501 pp.
+
+Kovalenko, V.V., Gaidukova, E.V., Chistyakov, D.V. et al. Prognostic models of development of processes of catastrophic long-term annual river runoff formation. Russ. Meteorol. Hydrol. 35, 695–699 (2010). https://doi.org/10.3103/S1068373910100079
 
 Monin A. S.1986. An Introduction to the Theory of Climate. Reidel, Dordrecht.
 
