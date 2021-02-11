@@ -92,7 +92,6 @@ table 3 -  gauges with lat/lon,altitude and area
 
 There are 24 streamflow indexes aggregated over a month, season and year given by Gudmunsson et al. (2018). The statistic include the mean, minimal and maximal values, the standard deviation, the statistical percentiles (1, 5, 10, ...) and more depending on the period of aggregation. The yearly indexes also include dates for mean, maximal and minimal discharges. Further, we analyses the long term series of yearly minimal river discharges and the dates of the maximal river discharges. Further analyses of the series of maximal river discharches allow to  understand better recent changes in frequency and severity of extreme floods. Most of the time series limited by 2014 or even early, and it would be possible to have the series covering later years from the local dataset (i.e. for Finnish rivers, the river discharges are available until 2020).  
 
-Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
 
 
        
@@ -137,7 +136,18 @@ Hydrological variables:
 
 ## 2 Methods
 
-ES: "I would suggest to start from the frequency and trend analyses while examine the time series of the river runoff in four seasons (aggregated from the daily/monthly values)."
+Runoff time series analyse
+
+1. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
+In time series of yearly mean river dicharges there are no trend found. In series of yealy maximum river dicharges, the trend are detected in 6 rivers (Ptich, Vosso, Pechora, Thames, Gave d'Oloron and Lee River)
+ 
+ ... initail first 3(4) moments for the homogeneous time series
+
+2. Shevnina et al., 2019: the whole period of observations was divided into the sub-periods with the statistically significant difference (shift) inthe mean values. Dividing into the subsamples was done ac-cording to the Student’sttest using the moving window ap-proach (Ducré-Robitaille et al., 2003). We begin from set-ting the size of the first subsample to the chosen minimum(15 members).
+  ... years of shift
+
+3. Kovalenko, 2006: beta criterio
+
 
 ES,  Task 1: toward a seasonal prediction of  freeze-up/break-up dates on lakes, rivers and inland sea 
 Nygard et al., 2019. 
@@ -158,12 +168,11 @@ beacuse it is not under the open-access. Therefore, would it possible to share w
 
 
 
-# Trends in the meteorological and hydrological time series
+# Discussions
 
-a) yearly average, minimal, maximal river runoff;
-b) in yearly winter (DJF), spring (MAM), summer (JJA) and autumn (SON) river runoff  
+1. Trends in the time series of yearly series 
 
-a). Gudmunson et al. 2018 ():
+a). Gudmunson et al. 2018: yearly mean and maximum river discharges 
 
 b). 25 river basins located in Finland (Korhonen and Kuusamo, 2010); 13 unregulated basins + 12 regulated; longest series until 2004; yearly mean discharge, monthly and seasonal river discharges, annual maximum and minimum flows; no trends in yearly mean discharges, yes trends in seasonla series, in most sites (64%) the winter and/or spring discharges have increased. 
 
@@ -278,6 +287,8 @@ Shevnina, E., Kourzeneva, E., Kovalenko, V., and Vihma, T.: Assessment of extrem
 Kovalenko, V.V.: HYDROLOGICAL security OF BUILDING PROJECTS WITH CLIMATE CHANGE, Russian State Hydrometeorological University press, St. Petersburg, Russia, 2009. (In Russian).
 
 E. Shevnina, A. Silaev. The probabilistic hydrological  model MARCS (MARkov Chain System): the theoretical basis for the core version 0.2, GMD, 2018. DOI: 10.5194/gmd-2018-108
+
+Shevnina, E., Kourzeneva, E., Kovalenko, V., and Vihma, T.: Assessment of extreme flood events in a changing climate for a long-term planning of socio-economic infrastructure in the Russian Arctic, Hydrol. Earth Syst. Sci., 21, 2559–2578, https://doi.org/10.5194/hess-21-2559-2017, 2017. 
 
 Shevnina, E.: Long term probabilistic projections of maximal runoff on the territory of the Russian Arctic. Thesis of the Doc-tor of Science, Russian State Hydrometeorologcial University. St. Petersburg, 2015. (in Russian)
 
