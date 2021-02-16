@@ -192,8 +192,12 @@ b). 25 river basins located in Finland (Korhonen and Kuusamo, 2010); 13 unregula
 
 c). 76 river basins located in the Russian Arctic Shevnina  (2011); longest series until 2002; yearly maximum river discharge; 30 % non-homogenius
 
+d). Shiklomanov et al., 2007:
 
+e). Blöschl et al. 2019:
 
+f). Durocher et al., 2019: 72 rivers with runoff into Arctic Ocean, trends for the period 1975 to 2015 + correlation with the Arctic Oscillation (AO), the North Atlantic Oscillation (NAO) or the Pacific Decadal
+Oscillation (PDO).
 
 # the large scale synoptic circulation classification
 
@@ -216,7 +220,12 @@ Bengtsson, L., Hodges, K.I., Koumoutsaris, S., Zahn, M. and Keenlyside, N.(2011)
 
 Boisvert, L. N., D. L. Wu, and C.-L. Shie, 2015: Increasing evaporation amounts seen in the Arctic between 2003 and 2013 from AIRS data. J. Geophys. Res. Atmos., 120, 6865–6881, https://doi.org/10.1002/2015JD023258.
 
+Blöschl, G., Hall, J., Viglione, A. et al. Changing climate both increases and decreases European river floods. Nature 573, 108–111 (2019). https://doi.org/10.1038/s41586-019-1495-6
+
 Buishand T.A. 1982: Some methods for testing the homogeneity of rainfall records. J Hydrol 58(1–2):11–27
+
+
+Durocher, M, Requena, AI, Burn, DH, Pellerin, J. Analysis of trends in annual streamflow to the Arctic Ocean. Hydrological Processes. 2019; 33: 1143– 1151. https://doi.org/10.1002/hyp.13392
 
 Gudmundsson, L., Do, H. X., Leonard, M., and Westra, S.: The Global Streamflow Indices and Metadata Archive (GSIM) – Part 2: Quality control, time-series indices and homogeneity assessment, Earth Syst. Sci. Data, 10, 787–804, https://doi.org/10.5194/essd-10-787-2018, 2018. 
 
