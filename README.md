@@ -109,7 +109,7 @@ Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 
 RIVER DISCHARGES example: http://wwwi3.ymparisto.fi/i3/vuositiedote/ENG/2019/virtaama/virtaama.htm
 
-
+!!!! I have checked the data for the maximal water discharges for the Russian rivers: there are many differences in the max dicharges given by Gudmunsson et al., 2018 and the maximal discharges provided by OGH published by State Hydrological Institute. 
 
 
 # meteorological observations
