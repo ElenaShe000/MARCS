@@ -143,7 +143,6 @@ In time series of yearly mean river dicharges there are no trend found. In serie
 
 1b. Shevnina et al. 2018: homogenity by 3 tests ...
 
-
  ... initail first 3(4) moments for the homogeneous time series
 
 II. "Quasi-stasionary periods" (Elena)
@@ -194,7 +193,8 @@ c). 50 river basins located in the Russian Arctic Shevnina  (2011); longest seri
 
 d). Shiklomanov et al., 2007:
 
-e). Blöschl et al. 2019:
+e). Blöschl et al. 2019: "show that clear regional patterns of both increases and decreases in observed river flood discharges in the last five decades in Europe are evident, which are likely manifestations of a changing climate. Our results suggest that (i) increasing autumn and winter rainfall has led to increasing floods in northwestern Europe, (ii) decreasing precipitation and increasing evaporation have led to decreasing floods in medium and large catchments in southern Europe and (iii) decreasing snowcover and snowmelt as a result of warmer temperatures have led to decreasing floods in eastern Europe. Regional flood discharge trends in Europe range from an increase of +11.4%
+per decade to a decrease of -23.1%. "... 
 
 f). Durocher et al., 2019: 72 rivers with runoff into Arctic Ocean, trends for the period 1975 to 2015 + correlation with the Arctic Oscillation (AO), the North Atlantic Oscillation (NAO) or the Pacific Decadal
 Oscillation (PDO).
