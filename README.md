@@ -190,7 +190,7 @@ a). Gudmunson et al. 2018: yearly mean and maximum river discharges
 
 b). 25 river basins located in Finland (Korhonen and Kuusamo, 2010); 13 unregulated basins + 12 regulated; longest series until 2004; yearly mean discharge, monthly and seasonal river discharges, annual maximum and minimum flows; no trends in yearly mean discharges, yes trends in seasonla series, in most sites (64%) the winter and/or spring discharges have increased. 
 
-c). 76 river basins located in the Russian Arctic Shevnina  (2011); longest series until 2002; yearly maximum river discharge; 30 % non-homogenius
+c). 50 river basins located in the Russian Arctic Shevnina  (2011); longest series of spring flood depth until 1980; 18% % time series are non-homogenius in terms of mean dispersion (student and Fisher criteria), and it is in accordance with Rozhdestvemskiy (red), 1988. also, 33 river basins, the longest series until 2008, 43% of non-homogenity detected by Student, Fisher and Kolmogorov tests on 1,5, and 10 of significance levels. 68% of the river basins are located in European part of the Russian Arctic (shevnina, 2015).
 
 d). Shiklomanov et al., 2007:
 
