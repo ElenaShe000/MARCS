@@ -202,6 +202,9 @@ Oscillation (PDO).
 
 e) Blöschl et al. 2017: "We analyzed the timing of river floods in Europeover the past five decades, using a pan-European database from 4262 observationalhydrometric stations, and found clear patterns of change in flood timing. Warmertemperatures have led to earlier spring snowmelt floods throughout northeasternEurope; delayed winter storms associated with polar warming have led to later winterfloods around the North Sea and some sectors of the Mediterranean coast; andearlier soil moisture maxima have led to earlier winter floods in western Europe. Ourresults highlight the existence of a clear climate signal in flood observations at thecontinental scale"
 
+g) Hall et al. 2014: "There is growing concern that flooding is becoming more frequent and severe in Europe. A better understanding of flood regime changes and their drivers is therefore needed. The paper reviews the current knowledge on flood regime changes in European rivers that has traditionally been obtained through two alternative research approaches. The first approach is the data-based detection of changes in observed flood events. Current methods are reviewed together with their challenges and opportunities. For example, observation biases, the merging of different data sources and accounting for nonlinear drivers and responses. The second approach consists of modelled scenarios of future floods. Challenges and opportunities associated with flood change scenarios are discussed such as fully accounting for uncertainties in the modelling cascade and feedbacks. To make progress in flood change research, we suggest that a synthesis of these two approaches is needed. This can be achieved by focusing on long duration records and flood-rich and flood-poor periods rather than on short duration flood trends only, by formally attributing causes of observed flood changes, by validating scenarios against observed flood regime dynamics, and by developing low-dimensional models of flood changes and feedbacks. The paper finishes with a call for a joint European flood change research network."
+
+
 # the large scale synoptic circulation classification
 
 
@@ -263,6 +266,8 @@ Jakobson, E. and Vihma, T. (2010), Atmospheric moisture budget in the Arctic bas
 Mylne K.R.: Decision-making from probability forecasts based on forecast value. Meteorological Applications 9: 307–315, 2002.
 
 precipitation variability: Busuioc,  A.,  Chen,  D.  &  Hellström,  C.  2001.  Temporal  and  spatial  variability  of  precipitation in Sweden and its link with the large scale atmospheric circulation. Tellus A 53(3), 348–367.
+
+Hall, J., Arheimer, B., Borga, M., Brázdil, R., Claps, P., Kiss, A., Kjeldsen, T. R., Kriaučiūnienė, J., Kundzewicz, Z. W., Lang, M., Llasat, M. C., Macdonald, N., McIntyre, N., Mediero, L., Merz, B., Merz, R., Molnar, P., Montanari, A., Neuhold, C., Parajka, J., Perdigão, R. A. P., Plavcová, L., Rogger, M., Salinas, J. L., Sauquet, E., Schär, C., Szolgay, J., Viglione, A., and Blöschl, G.: Understanding flood regime changes in Europe: a state-of-the-art assessment, Hydrol. Earth Syst. Sci., 18, 2735–2772, https://doi.org/10.5194/hess-18-2735-2014, 2014.
 
 Danilovich, I., Wrzesínski, D. & Nekrasova, L. 2007. Impact of the North Atlantic Oscillation  on  river  runoff  in  the  Belarus  part  of  the  Baltic  Sea  basin.  Nordic Hydrology 38(4-5), 413–423.
 
