@@ -199,6 +199,9 @@ per decade to a decrease of -23.1%. "...
 f). Durocher et al., 2019: 72 rivers with runoff into Arctic Ocean, trends for the period 1975 to 2015 + correlation with the Arctic Oscillation (AO), the North Atlantic Oscillation (NAO) or the Pacific Decadal
 Oscillation (PDO).
 
+
+e) Blöschl et al. 2017: "We analyzed the timing of river floods in Europeover the past five decades, using a pan-European database from 4262 observationalhydrometric stations, and found clear patterns of change in flood timing. Warmertemperatures have led to earlier spring snowmelt floods throughout northeasternEurope; delayed winter storms associated with polar warming have led to later winterfloods around the North Sea and some sectors of the Mediterranean coast; andearlier soil moisture maxima have led to earlier winter floods in western Europe. Ourresults highlight the existence of a clear climate signal in flood observations at thecontinental scale"
+
 # the large scale synoptic circulation classification
 
 
@@ -221,6 +224,8 @@ Bengtsson, L., Hodges, K.I., Koumoutsaris, S., Zahn, M. and Keenlyside, N.(2011)
 Boisvert, L. N., D. L. Wu, and C.-L. Shie, 2015: Increasing evaporation amounts seen in the Arctic between 2003 and 2013 from AIRS data. J. Geophys. Res. Atmos., 120, 6865–6881, https://doi.org/10.1002/2015JD023258.
 
 Blöschl, G., Hall, J., Viglione, A. et al. Changing climate both increases and decreases European river floods. Nature 573, 108–111 (2019). https://doi.org/10.1038/s41586-019-1495-6
+
+Blӧschl, G. et al. Changing climate shifts timing of European floods. Science 357, 588–590 (2017).
 
 Buishand T.A. 1982: Some methods for testing the homogeneity of rainfall records. J Hydrol 58(1–2):11–27
 
