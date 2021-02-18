@@ -109,8 +109,6 @@ Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 
 RIVER DISCHARGES example: http://wwwi3.ymparisto.fi/i3/vuositiedote/ENG/2019/virtaama/virtaama.htm
 
-!!!! I have checked the data for the maximal water discharges for the Russian rivers: there are many differences in the max dicharges given by Gudmunsson et al., 2018 and the maximal discharges provided by OGH published by State Hydrological Institute. 
-
 
 # meteorological observations
 Where are the synop observational 
@@ -138,8 +136,7 @@ Hydrological variables:
 
 I. Homogenity tests (Elena)
 
-1a. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). 
-In time series of yearly mean river dicharges there are no trend found. In series of yealy maximum river dicharges, the trend are detected in 6 rivers (Ptich, Vosso, Pechora, Thames, Gave d'Oloron and Lee River)
+1a. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). There are no trend found in the time series of annual mean river dicharges. However, the statistically significant inhogeneity are detected the series of annual maximum river dicharge for 5 rivers (Vosso River, Ura River, Lea River, Thames River and Gave d'Oloron River) as well as in the series of the date of annual maxumum for 3 rivers (Fulda River, Glama River and Solza River). 
 
 1b. Shevnina et al. 2018: homogenity by 3 tests ...
 
