@@ -134,6 +134,9 @@ Hydrological variables:
 
 ## 2 Methods
 
+
+Hall et al. 2014: "The existence and identification of flood-rich and flood-poor periods also has implications with regard to the flood prediction and design values for flood protection works, assuch estimates would then have to be considered as depen-dent  on  the  reference  period. It  is  therefore  suggested  thatfuture flood change analyses of systematic data should ac-tually focus on identifying flood-poor and flood-rich periodsinstead of only detecting whether trends exist. Trend analysis alone can be misleading as the results invariably depend on the observational window and homogeneity of the flood series."
+
 I. Homogenity tests (Elena)
 
 1a. Gudmundsson et al. (2018) analyse the homogenity of the long-term series of the streamflow indexes with the standard normal homogeneity test (Alexandersson, 1986), Buishand's range test (Buishand, 1982),  Pettitt's test (Pettitt, 1979) and von Neumann ratio test (Jaiswal et al. 2015). There are no trend found in the time series of annual mean river dicharges. However, the statistically significant inhogeneity are detected the series of annual maximum river dicharge for 5 rivers (Vosso River, Ura River, Lea River, Thames River and Gave d'Oloron River) as well as in the series of the date of annual maxumum for 3 rivers (Fulda River, Glama River and Solza River). 
