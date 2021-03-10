@@ -1,4 +1,4 @@
-"","V1","V2","V3","V4"
+"","River","Land Cover","Climate","Number of dams"
 "1","MORAVA","Forest","Snow","0"
 "2","AMPER","No dominant class","Snow","0"
 "3","EDER","Forest","Warm Temperate","0"
@@ -17,7 +17,6 @@
 "16","FYRSJOEN","Forest","Snow","0"
 "17","HRON","Forest","Snow","0"
 "18","EMAJOGI","Forest","Snow","0"
-"19","GUADIANA MENOR O BAZA","Agriculture","Arid","5"
 "20","LEA","Agriculture","Warm Temperate","0"
 "21","DEE","Grassland","Warm Temperate","0"
 "22","THAMES","Agriculture","Warm Temperate","0"
