@@ -105,6 +105,12 @@ Q2: TO DENSE THE OBSERVATIONAL NETWORK IN FINLAND?
 RIVER DISCHARGES example: http://wwwi3.ymparisto.fi/i3/vuositiedote/ENG/2019/virtaama/virtaama.htm
 
 
+River basins for the European Russia:    http://bassepr.kpfu.ru/
+
+Ermolaev O.P., Mal’tsev K.A., Mukharamova S.S., Kharchenko S.V., Vedeneeva E.A. Cartographic Model of River Basins of European Russia // Geography and Natural Resources. – 2017. - Vol. 38. - No. 2. - P.131-138.
+
+Ermolaev O. P., Mal'tsev K. A., Ivanov M.A. Automated Construction of the Boundaries of Basin Geosystems for the Volga Federal District // Geography and Natural Resources. – 2014. - Vol. 35. - No. 3. - P. 222-228.)
+
 # meteorological observations
 Where are the synop observational 
 reference SYNOP stations... 
