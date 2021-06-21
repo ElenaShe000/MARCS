@@ -19,6 +19,9 @@ Naakka et al., 2019:
 As the unhomogenity in the observed series of meteorological and hydrological series dates to late 1990s, and the legths of the observated  series seems to be too short to distigush the reason of the unhomogenity: would it attribute to natural variability or forced by human activity (Koenigk et al., 2020; XX). 
 
 
+Projektipäällikkö Pauli Jokinen (SÄÄ), 050-5702161: The new climatic normal period will be completed in autumn
+The new normal period produced from the observations of 1991-2020 is nearing completion. Station-specific statistics have been calculated and average maps for the period 1991-2020."
+
 
 What are the risks of hydropower hydropower production? 
 Humans traditionally use water of lakes and rivers in energy production. The hydropower generation is among others social activities highly related to weather phenomena and hydrological regime of the rivers and lakes. The risks of in the hydropower generation is related the hydrological events of rare occurrence (or extremes). These hydrological extremes (including floods and drought) are traditionally estimated from time series of the lake level and/or river water discharge observed at a network of gauges. The observations on the gauges include the water level/stage daily river discharge are usually evaluated the level time series are hydrological observations are mostly launched in begging of the last century, and almost until end of 1990s, no significant trend are observed in the hydrological time series. It allows to apply statistical methods of the frequency analyse (XX) while estimating the hydrological events of rare occurrence, i.e. the floods happened once per 10, 100, or 1000 years. The exceedance probability curves of yearly maximum river runoff provides whole information to assessment of the risks connected to extreme floods in a particular hydropower construction (XX;XX; Shevnina, 2014; Kovalenko, 2004).
