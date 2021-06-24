@@ -55,10 +55,6 @@ What and why needed to focus on the probabilistic approach?
 
 The study aims 
  
- ... toward long term prediction of extreme floods and droughts (service: hydropower, roads insfrustructure, agriculture, 
- 
- ... toward seasonal prediction of river runoff on a catchment scale (service for hydropower production).
- 
  
 objectives
 
